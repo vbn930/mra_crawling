@@ -95,7 +95,7 @@ class WebDriverManager:
             except Exception as e:
                 self.logger.log(log_level="Debug", log_msg=f"Page load failed : {e}")
                 is_page_loaded = False
-            self.driver.minimize_window()
+            #self.driver.minimize_window()
 
     def get_driver(self):
         return self.driver
