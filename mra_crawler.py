@@ -113,6 +113,11 @@ class MRA_Crawler:
         self.data["모델"].append(product.model)
 
     def get_shop_categories(self, start_make=0, start_model=0, start_year=0):
+        #For test
+        start_make = "VECTRIX"
+        start_model = "VX-1"
+        start_year = "alle BJ"
+        ##
         is_found_start_idx = False
         shop_categories = []
         
@@ -120,37 +125,60 @@ class MRA_Crawler:
             is_found_start_idx = True
         
         #shop 옵션 값 가져오기
+        WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'level1')))
         make_select = Select(self.driver.find_element(By.ID, 'level1'))
         make_options = make_select.options
         make_options = make_options[1:]
-        for i in range(len(make_options)):
-            print(f"Brand option idx : {i}")
-            make_option = make_options[i]
+        make_option_texts = [option.text for option in make_options]
+        start_make_idx = 0
+
+        if not is_found_start_idx:
+            start_make_idx = make_option_texts.index(start_make)
+
+        for i in range(start_make_idx, len(make_options)):
+            WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'level1')))
+            make_select = Select(self.driver.find_element(By.ID, 'level1'))
             make_select.select_by_index(i+1)
-            Util.wait_time(self.logger, 5)
+
+            WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'level2')))
             model_select = Select(self.driver.find_element(By.ID, 'level2'))
+
             model_options = model_select.options
             model_options = model_options[1:]
+            model_option_texts = [option.text for option in model_options]
+            start_model_idx = 0
 
-            for j in range(len(model_options)):
-                print(f"Model option idx : {j}")
-                model_option = model_options[j]
+            if not is_found_start_idx:
+                start_model_idx = model_option_texts.index(start_model)
+
+            for j in range(start_model_idx, len(model_options)):
+
+                WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'level2')))
+                model_select = Select(self.driver.find_element(By.ID, 'level2'))
                 model_select.select_by_index(j+1)
-                Util.wait_time(self.logger, 5)
-                year_select = Select(self.driver.find_element(By.ID, 'level3'))
-                year_options = year_select.options
-                year_options = year_options[1:]
+
+                WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'level3')))
+                if self.driver_manager.is_element_exist(By.ID, 'level3'):
+                    year_select = Select(self.driver.find_element(By.ID, 'level3'))
+                    year_options = year_select.options
+                    year_options = year_options[1:]
+                    year_option_texts = [option.text for option in year_options]
+                    start_year_idx = 0
+
+                    if not is_found_start_idx:
+                        start_year_idx = year_option_texts.index(start_year)
+                else:
+                    year_options = []
 
                 for k in range(len(year_options)):
                     year_option = year_options[k]
-                    print(f"Year option idx : {k+1}")
-                    # if start_make == make_option.text and start_model == model_option.text and start_year == year_option.text and is_found_start_idx == False:
-                    #     is_found_start_idx = True
-                    #     self.logger.log(log_level="Event", log_msg=f"Start point found! : {make_option.text}, {model_option.text}, {year_option.text}")
+                    if start_make == make_option_texts[i] and start_model == model_option_texts[j] and start_year == year_option_texts[k] and is_found_start_idx == False:
+                        is_found_start_idx = True
+                        self.logger.log(log_level="Event", log_msg=f"Start point found! - Brand : {make_option_texts[i]}, Model : {model_option_texts[j]}, Year : {year_option_texts[k]}")
                     
                     if is_found_start_idx:
-                        self.logger.log(log_level="Debug", log_msg=f"Brand : {make_option}, Model : {model_option}, Year : {year_option}, Value : {year_option.get_attribute('value')}")
-                        shop_category = ShopCatrgory(make=make_option, model=model_option, year=year_option, href=year_option.get_attribute("value"))
+                        self.logger.log(log_level="Debug", log_msg=f"Brand : {make_option_texts[i]}, Model : {model_option_texts[j]}, Year : {year_option_texts[k]}, Value : {year_option.get_attribute('value')}")
+                        shop_category = ShopCatrgory(make=make_option_texts[i], model=model_option_texts[j], year=year_option_texts[k], href=year_option.get_attribute("value"))
                         shop_categories.append(shop_category)
 
         return shop_categories
