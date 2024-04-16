@@ -32,7 +32,7 @@ class Logger:
 
     def save_logs(self):
         file_path = "log.txt"
-        with open(file_path, "w") as file:
+        with open(file_path, "w", encoding="cp949") as file:
             for log in self.log_stack:
                 file.write(log + "\n")
         

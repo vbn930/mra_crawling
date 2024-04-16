@@ -12,11 +12,9 @@ def main():
     logger = Util.Logger("Dev")
     crawler = mra_crawler.MRA_Crawler(logger)
     logger.log(log_level="Event", log_msg=f"=MRA Crawler ver1.0=")
-    crawler.driver_manager.get_page(url)
-    crawler.get_shop_categories()
 
     try:
-        #crawler.start_crawling()
+        crawler.start_crawling()
         return
     except Exception as e:
         logger.log(log_level="Error", log_msg=e)

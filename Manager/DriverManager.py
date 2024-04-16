@@ -56,6 +56,8 @@ class WebDriverManager:
             chrome_options.add_argument("--disable-blink-features=AnimationControlled")
             chrome_options.add_argument('--start-maximized')
             chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+            chrome_options.add_argument('--log-level=3') # 브라우저 로그 레벨을 낮춤
+            chrome_options.add_argument('--disable-loging') # 로그를 남기지 않음
             if self.is_headless:
                 chrome_options.add_argument("headless")
             driver = webdriver.Chrome(options=chrome_options)
@@ -87,7 +89,6 @@ class WebDriverManager:
         while(is_page_loaded == False):
             try:
                 self.driver.get(url)
-                Util.wait_time(self.logger, 5)
                 self.driver.implicitly_wait(max_wait_time)
                 self.logger.log(log_level="Debug", log_msg=f"Get *{url}* page")
                 self.driver.get_screenshot_as_file("temp.png")

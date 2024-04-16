@@ -22,7 +22,9 @@ class Product:
     code: str
     name: str
     price: str
-    dealer_price: str
+    length: str
+    width: str
+    shipment: str
     description: str
     trans_description: str
     images: list
@@ -41,7 +43,7 @@ class MRA_Crawler:
     def __init__(self, logger):
         self.file_manager = FileManager.FileManager()
         self.logger = logger
-        self.driver_manager = DriverManager.WebDriverManager(self.logger, is_headless=False, is_use_udc=False)
+        self.driver_manager = DriverManager.WebDriverManager(self.logger, is_headless=True, is_use_udc=False)
         self.driver = self.driver_manager.driver
         self.file_manager.creat_dir("./temp")
         self.file_manager.creat_dir("./output")
@@ -55,10 +57,7 @@ class MRA_Crawler:
     def get_init_settings_from_file(self):
         #cvs 파일에서 계정 정보, 브랜드, 브랜드 코드 가져오기
         data = pd.read_csv("./setting.csv").fillna(0)
-        account = data["account"].to_list()
-        account.append(0)
-        account = account[0:account.index(0)]
-
+        
         start_maker = data["start_maker"].to_list()
         start_maker.append(0)
         start_maker = start_maker[0:start_maker.index(0)]
@@ -74,27 +73,29 @@ class MRA_Crawler:
         start_year.append(0)
         start_year = start_year[0:start_year.index(0)]
 
-        return account[0], account[1], start_maker[0], start_model[0], start_year[0]
+        return start_maker[0], start_model[0], start_year[0]
 
     def data_init(self):
         self.data.clear()
         self.data["상품 코드"] = list()
         self.data["상품명"] = list()
         self.data["정상가"] = list()
-        self.data["딜러가"] = list()
+        self.data["Length"] = list()
+        self.data["Width"] = list()
+        self.data["Shipment"] = list()
+        self.data["설명"] = list()
+        self.data["설명 번역"] = list()
         self.data["대표 이미지"] = list()
         self.data["상세 이미지"] = list()
         self.data["옵션명"] = list()
         self.data["옵션 내용"] = list()
-        self.data["설명"] = list()
-        self.data["설명 번역"] = list()
         self.data["모델"] = list()
     
     def add_product_to_data(self, product):
         self.data["상품 코드"].append(product.code)
         self.data["상품명"].append(product.name)
         self.data["정상가"].append(product.price)
-        self.data["딜러가"].append(product.dealer_price)
+        
         if len(product.images) == 0:
             self.data["대표 이미지"].append("")
             self.data["상세 이미지"].append("")
@@ -108,16 +109,14 @@ class MRA_Crawler:
             self.data["상세 이미지"].append(img_text)
         self.data["옵션명"].append(product.option_name)
         self.data["옵션 내용"].append(product.option_value)
+        self.data["Length"].append(product.length)
+        self.data["Width"].append(product.width)
+        self.data["Shipment"].append(product.shipment)
         self.data["설명"].append(product.description)
         self.data["설명 번역"].append(product.trans_description)
         self.data["모델"].append(product.model)
 
     def get_shop_categories(self, start_make=0, start_model=0, start_year=0):
-        #For test
-        start_make = "VECTRIX"
-        start_model = "VX-1"
-        start_year = "alle BJ"
-        ##
         is_found_start_idx = False
         shop_categories = []
         
@@ -185,77 +184,61 @@ class MRA_Crawler:
 
     def get_items_from_page(self, src):
         item_hrefs = []
-        item_codes = []
-        item_href = ""
-        item_code = ""
+        is_last_page = False
+        page = 1
+        while(not is_last_page):
+            page_url = f"{src}?p={page}"
+            self.driver_manager.get_page(page_url)
+            
+            if self.driver_manager.is_element_exist(By.CLASS_NAME, "product--info"):
+                product_elements = self.driver.find_elements(By.CLASS_NAME, "product--info")
+                for product_element in product_elements:
+                    href = product_element.find_element(By.TAG_NAME, "a").get_attribute("href")
+                    item_hrefs.append(href)
+            else:
+                is_last_page = True
+            page += 1
+            
+        return item_hrefs
+
+    def get_item_info(self, src, shop_catrgory, output_name):
         self.driver_manager.get_page(src)
         
-        if self.driver_manager.is_element_exist(By.CLASS_NAME, "v-product"):
-            item_elements = self.driver.find_elements(By.CLASS_NAME, "v-product")
-            for item_element in item_elements:
-                item_href = item_element.find_element(By.CLASS_NAME, "v-product__img").get_attribute("href")
-                item_code = item_element.find_element(By.CLASS_NAME, "text.v-product__desc").text
-                
-                if "Part Number" in item_code:
-                    item_code = item_code.split(":")
-                    if len(item_code) == 1:
-                        item_code = item_code[0][12:]
-                    else:
-                        item_code = item_code[1][1:]
-                item_hrefs.append(item_href)
-                item_codes.append(item_code)
-        
-        #테이블로 표현된 경우에는 5 tr 사용, 5 tr 당 3개의 상품
-        if self.driver_manager.is_element_exist(By.XPATH, '//*[@id="MainForm"]/table[2]/tbody/tr/td/table/tbody/tr/td/table'):
-            item_elements = self.driver.find_element(By.XPATH, '//*[@id="MainForm"]/table[2]/tbody/tr/td/table/tbody/tr/td/table').find_elements(By.TAG_NAME, "tr")
-            for i in range(0, len(item_elements), 5):
-                #1, 3 인덱스 사용
-                item_href_elements = item_elements[1].find_elements(By.TAG_NAME, "td")
-                item_code_elements = item_elements[3].find_elements(By.TAG_NAME, "td")
-                
-                for i in range(len(item_href_elements)):
-                    item_href = item_href_elements[i].find_element(By.CLASS_NAME, "productnamecolor.colors_productname").get_attribute("href")
-                    item_code = item_code_elements[i].text
-                    
-                    if "Part Number" in item_code:
-                        item_code = item_code.split(":")
-                        item_code = item_code[1][1:]
-                    item_hrefs.append(item_href)
-                    item_codes.append(item_code)
-
-        return item_hrefs, item_codes
-
-    def get_item_info(self, src, code, shop_catrgory, output_name):
-        self.driver_manager.get_page(src)
-
-        temp_code = code.replace(" ", "")
-        item_code = f"tx_{temp_code}"
-        item_code = item_code.replace("/", "-")
         item_model = f"{shop_catrgory.make} {shop_catrgory.model} {shop_catrgory.year}"
 
-        item_name = self.driver.find_element(By.CLASS_NAME, 'vp-product-title').text
-        org_price = self.driver.find_element(By.CLASS_NAME, 'product_productprice').text.split(":")
-        org_price = org_price[1][2:]
-        dealer_price = ""
-
-        if self.driver_manager.is_element_exist(By.CLASS_NAME, 'product_saleprice'):
-            dealer_price = self.driver.find_element(By.CLASS_NAME, 'product_saleprice').find_element(By.TAG_NAME, 'span').text
-        else:
-            dealer_price = org_price
-
-        img_hrefs = []
-        is_large_img_exist = False
-        if self.driver_manager.is_element_exist(By.ID, "product_photo"):
-            img_elemnet = self.driver.find_element(By.ID, "product_photo")
-            img_hrefs.append(img_elemnet.get_attribute("src"))
-            is_large_img_exist = True
+        item_name = self.driver.find_element(By.CLASS_NAME, 'product--title').text
+        org_price = self.driver.find_element(By.CLASS_NAME, 'product--price.price--default').find_element(By.TAG_NAME, "meta").get_attribute("content")
         
-        if self.driver_manager.is_element_exist(By.ID, "altviews"):
-            if is_large_img_exist:
-                img_hrefs.pop()
-            img_elemnets = self.driver.find_element(By.ID, "altviews").find_elements(By.TAG_NAME, "a")
-            for i in range(0, len(img_elemnets), 2):
-                img_hrefs.append(img_elemnets[i].get_attribute("href"))
+        item_code = "mra-"
+        item_length = ""
+        item_width = ""
+        item_shipment = ""
+        
+        if self.driver_manager.is_element_exist(By.CLASS_NAME, "product--base-info.list--unstyled"):
+            product_info_list = self.driver.find_element(By.CLASS_NAME, "product--base-info.list--unstyled")
+            product_info_elements = product_info_list.find_elements(By.TAG_NAME, "li")
+            product_info_elements = product_info_elements[1:]
+            
+            for product_info_element in product_info_elements:
+                text = product_info_element.find_element(By.CLASS_NAME, "entry--content").text
+                lable = product_info_element.find_element(By.CLASS_NAME, "entry--label").text
+                if "Order number" in lable:
+                    item_code += text
+                elif "Length" in lable:
+                    item_length = text
+                elif "Width" in lable:
+                    item_width = text
+                elif "Shipment" in lable:
+                    item_shipment = text
+                
+        img_hrefs = []
+        
+        if self.driver_manager.is_element_exist(By.CLASS_NAME, "image--box.image-slider--item.image-slider--item--image"):
+            img_elements = self.driver.find_elements(By.CLASS_NAME, "image--box.image-slider--item.image-slider--item--image")
+            for img_element in img_elements:
+                img_href = img_element.find_element(By.CLASS_NAME, "image--element").get_attribute("data-img-original")
+                img_hrefs.append(img_href)
+        
         img_hrefs = img_hrefs[0:12]
         
          #이미지 다운로드
@@ -270,19 +253,18 @@ class MRA_Crawler:
         option_names = []
         options = []
 
-        if self.driver_manager.is_element_exist(By.CLASS_NAME, "vol-option-name"):
-            option_name_elements = self.driver.find_elements(By.CLASS_NAME, "vol-option-name")
+        if self.driver_manager.is_element_exist(By.CLASS_NAME, "product--configurator"):
+            option_name_elements = self.driver.find_element(By.CLASS_NAME, "product--configurator").find_elements(By.CLASS_NAME, "configurator--label")
             for option_name_element in option_name_elements:
                 option_name = option_name_element.text
-                option_names.append(option_name[:-2])
+                option_names.append(option_name[:-1])
 
-            option_elements = self.driver.find_elements(By.CLASS_NAME, "vol-option-items.vol-option-select")
+            option_elements = self.driver.find_element(By.CLASS_NAME, "product--configurator").find_elements(By.TAG_NAME, "select")
             for option_element in option_elements:
                 option_list = []
-                option_selects = Select(option_element.find_element(By.TAG_NAME, "select")).options
+                option_selects = Select(option_element).options
                 for option_select in option_selects:
-                    if int(option_select.get_attribute("value")) != 0:
-                        option_list.append(option_select.text)
+                    option_list.append(option_select.text)
                 options.append(option_list)
 
         option_name = ""
@@ -302,21 +284,12 @@ class MRA_Crawler:
                     option_value += "|"
 
         item_description = ""
-        if self.driver_manager.is_element_exist(By.ID, "product_description"):
-            text_elements = self.driver.find_element(By.ID, "product_description").find_elements(By.TAG_NAME, "li")
-            for text_element in text_elements:
-                item_description += text_element.text
-                item_description += "|"
-            
-            if self.driver_manager.is_element_exist(By.CSS_SELECTOR, "#product_description > div"):
-                text = self.driver.find_element(By.ID, "product_description").find_element(By.TAG_NAME, "div").text
-                item_description += text.replace("\n", "|")
-            if self.driver_manager.is_element_exist(By.CSS_SELECTOR, "#product_description > span"):
-                text = self.driver.find_element(By.CSS_SELECTOR, "#product_description > span").text
-                item_description += text.replace("\n", "|")
+        if self.driver_manager.is_element_exist(By.CLASS_NAME, "product--description"):
+            item_description = self.driver.find_element(By.CLASS_NAME, "product--description").text.replace("\n", "|")
 
-        product = Product(code=item_code, name=item_name, price=org_price, dealer_price=dealer_price, description=item_description, 
+        product = Product(code=item_code, name=item_name, price=org_price, length=item_length, width=item_width, shipment=item_shipment, description=item_description, 
                             trans_description=Util.translator(self.logger, "en", "ko", item_description), images=image_names, option_name=option_name, option_value=option_value, model=item_model)
+
         self.add_product_to_data(product)
         self.save_csv_datas(output_name=output_name)
 
@@ -337,8 +310,11 @@ class MRA_Crawler:
         
         self.file_manager.creat_dir(f"./output/{output_name}")
         self.file_manager.creat_dir(f"./output/{output_name}/images")
-        
-        id, pw, start_make, start_model, start_year = self.get_init_settings_from_file()
+
+        start_make = "YAMAHA"
+        start_model = "BT 1100 Bulldog"
+        start_year = "BJ 02-"
+        item_hrefs = []
         
         self.driver_manager.get_page("https://www.mrashop.de/com/model-based-products/")
 
@@ -350,29 +326,16 @@ class MRA_Crawler:
         
         for shop_catrgory in shop_categories:
             self.logger.log(log_level="Event", log_msg=f"Current maker : {shop_catrgory.make}, model : {shop_catrgory.model}, year : {shop_catrgory.year}")
-            cat_num = shop_catrgory.href.split("/")
-            cat_num = cat_num[-1]
-            cat_num = cat_num[:4]
-            category_href = f"{shop_catrgory.href}?searching=Y&sort=13&cat={cat_num}&show=300&page=1"
-            self.driver_manager.get_page(category_href)
-            last_page = 0
-            if self.driver_manager.is_element_exist(By.XPATH, '//*[@id="MainForm"]/table[1]/tbody/tr/td/table[1]/tbody/tr[1]/td[2]/nobr/font/b/font/b'):
-                last_page = self.driver.find_element(By.XPATH, '//*[@id="MainForm"]/table[1]/tbody/tr/td/table[1]/tbody/tr[1]/td[2]/nobr/font/b/font/b').text.split(" ")[2]
-            item_hrefs = []
-            item_codes = []
-            for page in range(int(last_page)):
-                category_href = f"{shop_catrgory.href}?searching=Y&sort=13&cat={cat_num}&show=300&page={page+1}"
-                try:
-                    temp_hrefs, temp_codes = self.get_items_from_page(category_href)
-                except Exception as e:
-                    self.logger.log(log_level="Error", log_msg=f"Error in get_items_from_page : {e}")
-                    return
-                item_hrefs += temp_hrefs
-                item_codes += temp_codes
+            try:
+                temp_hrefs = self.get_items_from_page(shop_catrgory.href)
+            except Exception as e:
+                self.logger.log(log_level="Error", log_msg=f"Error in get_items_from_page : {e}")
+                return
+            item_hrefs += temp_hrefs
 
-            for i in range(len(item_hrefs)):
+            for item_href in item_hrefs:
                 try:
-                    item_info = self.get_item_info(item_hrefs[i], item_codes[i], shop_catrgory, output_name)
+                    item_info = self.get_item_info(item_href, shop_catrgory, output_name)
                 except Exception as e:
                     self.logger.log(log_level="Error", log_msg=f"Error in get_item_info : {e}")
                     return

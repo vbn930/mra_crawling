@@ -1,0 +1,136 @@
+[2024-04-16 23:27:41][Debug] Driver init
+[2024-04-16 23:27:42][Event] =MRA Crawler ver1.0=
+[2024-04-16 23:27:48][Debug] Get *https://www.mrashop.de/com/model-based-products/* page
+[2024-04-16 23:27:52][Event] Start point found! - Brand : YAMAHA, Model : BT 1100 Bulldog, Year : BJ 02-
+[2024-04-16 23:27:52][Debug] Brand : YAMAHA, Model : BT 1100 Bulldog, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/bt-1100-bulldog/bj-02/
+[2024-04-16 23:27:53][Debug] Brand : YAMAHA, Model : BWS 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/bws-125/alle-bj/
+[2024-04-16 23:27:56][Debug] Brand : YAMAHA, Model : DT 125 R, Year : BJ 98-, Value : https://www.mrashop.de/com/model-based-products/yamaha/dt-125-r/bj-98/
+[2024-04-16 23:27:58][Debug] Brand : YAMAHA, Model : DT 125 RE / X, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/dt-125-re-x/alle-bj/
+[2024-04-16 23:27:59][Debug] Brand : YAMAHA, Model : FJ 1100, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1100/alle-bj/
+[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 86-87, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-86-87/
+[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 88-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-88-90/
+[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-91/
+[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ -05, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-05/
+[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 06-12, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-06-12/
+[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 13-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-13/
+[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 16-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-16/
+[2024-04-16 23:28:05][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005756
+[2024-04-16 23:28:05][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/
+[2024-04-16 23:28:08][Debug] Brand : YAMAHA, Model : FZ 1 Fazer, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/
+[2024-04-16 23:28:10][Debug] Brand : YAMAHA, Model : FZ 6, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6/bj-07/
+[2024-04-16 23:28:12][Debug] Brand : YAMAHA, Model : FZ 6 R, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6-r/bj-10/
+[2024-04-16 23:28:14][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/cat/index/sCategory/90005761
+[2024-04-16 23:28:14][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600/alle-bj/
+[2024-04-16 23:28:16][Debug] Brand : YAMAHA, Model : FZ 600 S FAZER, Year : BJ 04-06, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s-fazer/bj-04-06/
+[2024-04-16 23:28:18][Debug] Brand : YAMAHA, Model : FZ 600 S2 FAZER, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s2-fazer/bj-07/
+[2024-04-16 23:28:21][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ -86, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-86/
+[2024-04-16 23:28:21][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-85/
+[2024-04-16 23:28:22][Debug] Brand : YAMAHA, Model : FZ 8 Fazer, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-fazer/bj-10/
+[2024-04-16 23:28:25][Debug] Brand : YAMAHA, Model : FZ 8 N, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-n/bj-10/
+[2024-04-16 23:28:26][Debug] Brand : YAMAHA, Model : FZ-07, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-07/bj-14/
+[2024-04-16 23:28:28][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-14/
+[2024-04-16 23:28:28][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-17-20/
+[2024-04-16 23:28:30][Debug] Brand : YAMAHA, Model : FZR 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400/alle-bj/
+[2024-04-16 23:28:32][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 91-91, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-91-91/
+[2024-04-16 23:28:32][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-94-95/
+[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ -90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-90/
+[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-91-93/
+[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-94-95/
+[2024-04-16 23:28:37][Debug] Brand : YAMAHA, Model : FZR 750, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-750/alle-bj/
+[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ -88, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-88/
+[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 89-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-89-90/
+[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-94-95/
+[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-91-93/
+[2024-04-16 23:28:41][Debug] Brand : YAMAHA, Model : FZS 6 (S2), Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-6-s2/alle-bj/
+[2024-04-16 23:28:43][Debug] Brand : YAMAHA, Model : FZS 1, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1/alle-bj/
+[2024-04-16 23:28:46][Debug] Brand : YAMAHA, Model : FZS 1000 Fazer, Year : BJ 01-05, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1000-fazer/bj-01-05/
+[2024-04-16 23:28:48][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 98-01, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-98-01/
+[2024-04-16 23:28:48][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 02-03, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-02-03/
+[2024-04-16 23:28:50][Debug] Brand : YAMAHA, Model : GTS 1000, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/gts-1000/bj-93/
+[2024-04-16 23:28:52][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-09/
+[2024-04-16 23:28:52][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 04-08, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-04-08/
+[2024-04-16 23:28:54][Debug] Brand : YAMAHA, Model : Majesty YP 250 R, Year : BJ 99-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-yp-250-r/bj-99/
+[2024-04-16 23:28:56][Debug] Brand : YAMAHA, Model : MT-01, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-01/alle-bj/
+[2024-04-16 23:28:58][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ -14, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-14/
+[2024-04-16 23:28:58][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-15-19/
+[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 14-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-14-17/
+[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 18-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-18-20/
+[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-21/
+[2024-04-16 23:29:03][Debug] Brand : YAMAHA, Model : MT-07 Tracer, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07-tracer/bj-16-19/
+[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 21-23, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-21-23/
+[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 14-16, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-14-16/
+[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-17-20/
+[2024-04-16 23:29:06][Debug] Brand : YAMAHA, Model : MT-09 Tracer, Year : BJ 15-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09-tracer/bj-15-17/
+[2024-04-16 23:29:08][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 16-21, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-16-21/
+[2024-04-16 23:29:08][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 22-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-22/
+[2024-04-16 23:29:10][Debug] Brand : YAMAHA, Model : MT-125, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-125/bj-15-19/
+[2024-04-16 23:29:11][Debug] Brand : YAMAHA, Model : Neos 4T 50, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/neos-4t-50/alle-bj/
+[2024-04-16 23:29:14][Debug] Brand : YAMAHA, Model : NMax 125 / 150, Year : BJ 16-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/nmax-125-150/bj-16-20/
+[2024-04-16 23:29:16][Debug] Brand : YAMAHA, Model : R 6S, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/r-6s/bj-06/
+[2024-04-16 23:29:18][Debug] Brand : YAMAHA, Model : RD 350, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350/alle-bj/
+[2024-04-16 23:29:19][Debug] Brand : YAMAHA, Model : RD 350 Lenkerverkleidung, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350-lenkerverkleidung/alle-bj/
+[2024-04-16 23:29:22][Debug] Brand : YAMAHA, Model : RD 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-500/alle-bj/
+[2024-04-16 23:29:23][Debug] Brand : YAMAHA, Model : SR 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-125/alle-bj/
+[2024-04-16 23:29:26][Debug] Brand : YAMAHA, Model : SR 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-500/alle-bj/
+[2024-04-16 23:29:28][Debug] Brand : YAMAHA, Model : SZR 660, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/szr-660/bj-96/
+[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 01-07, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-01-07/
+[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 08-11, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-08-11/
+[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 12-15, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-12-15/
+[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-21/
+[2024-04-16 23:29:32][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ -95, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-95/
+[2024-04-16 23:29:32][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-96/
+[2024-04-16 23:29:35][Debug] Brand : YAMAHA, Model : TDM 900, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-900/bj-02/
+[2024-04-16 23:29:36][Debug] Brand : YAMAHA, Model : Tenere 700, Year : BJ 19-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tenere-700/bj-19/
+[2024-04-16 23:29:39][Debug] Brand : YAMAHA, Model : Tracer 7, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-7/bj-21/
+[2024-04-16 23:29:41][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-16-19/
+[2024-04-16 23:29:41][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 20-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-20/
+[2024-04-16 23:29:43][Debug] Brand : YAMAHA, Model : Tracer 9 /GT, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-9-gt/bj-21/
+[2024-04-16 23:29:45][Debug] Brand : YAMAHA, Model : Tracer 900 /GT, Year : BJ 18-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-900-gt/bj-18/
+[2024-04-16 23:29:47][Debug] Brand : YAMAHA, Model : Tricity 125, Year : BJ -19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tricity-125/bj-19/
+[2024-04-16 23:29:49][Debug] Brand : YAMAHA, Model : TRX 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/trx-850/bj-96/
+[2024-04-16 23:29:52][Debug] Brand : YAMAHA, Model : TT 600 E / S, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tt-600-e-s/alle-bj/
+[2024-04-16 23:29:53][Debug] Brand : YAMAHA, Model : TW 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tw-125/alle-bj/
+[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 88-92, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-88-92/
+[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-91/
+[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-93/
+[2024-04-16 23:29:57][Debug] Brand : YAMAHA, Model : TZR 250, Year : BJ -89, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-250/bj-89/
+[2024-04-16 23:30:00][Debug] Brand : YAMAHA, Model : V Max 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005818
+[2024-04-16 23:30:02][Debug] Brand : YAMAHA, Model : V-MAX, Year : BJ -11, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max/bj-11/
+[2024-04-16 23:30:04][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-85/
+[2024-04-16 23:30:04][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 86-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-86/
+[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 88-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-88/
+[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 89-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-89/
+[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-91/
+[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-93/
+[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-96/
+[2024-04-16 23:30:07][Debug] Brand : YAMAHA, Model : V-MAX 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1700/bj-08/
+[2024-04-16 23:30:09][Debug] Brand : YAMAHA, Model : X-City 125/250, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-city-125250/bj-07/
+[2024-04-16 23:30:11][Debug] Brand : YAMAHA, Model : X-Max 125/250, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-max-125250/alle-bj/
+[2024-04-16 23:30:13][Debug] Brand : YAMAHA, Model : XJ 6, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6/alle-bj/
+[2024-04-16 23:30:15][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion/bj-09/
+[2024-04-16 23:30:18][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION F, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion-f/bj-10/
+[2024-04-16 23:30:20][Debug] Brand : YAMAHA, Model : XJ 600 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-f/alle-bj/
+[2024-04-16 23:30:22][Debug] Brand : YAMAHA, Model : XJ 600 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-n/alle-bj/
+[2024-04-16 23:30:24][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-96/
+[2024-04-16 23:30:24][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 93-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-93-95/
+[2024-04-16 23:30:27][Debug] Brand : YAMAHA, Model : XJ 650 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-650-n/alle-bj/
+[2024-04-16 23:30:29][Debug] Brand : YAMAHA, Model : XJ 750 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-f/alle-bj/
+[2024-04-16 23:30:31][Debug] Brand : YAMAHA, Model : XJ 750 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-n/alle-bj/
+[2024-04-16 23:30:33][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 83-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-83/
+[2024-04-16 23:30:33][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-85/
+[2024-04-16 23:30:36][Debug] Brand : YAMAHA, Model : XJ 900 F, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-f/bj-85/
+[2024-04-16 23:30:38][Debug] Brand : YAMAHA, Model : XJ 900 S, Year : BJ 95-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-s/bj-95/
+[2024-04-16 23:30:40][Debug] Brand : YAMAHA, Model : XJR 1200, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200/bj-01/
+[2024-04-16 23:30:42][Debug] Brand : YAMAHA, Model : XJR 1200 NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200-nakedbike/alle-bj/
+[2024-04-16 23:30:45][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-01/
+[2024-04-16 23:30:45][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-02/
+[2024-04-16 23:30:47][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/alle-bj/
+[2024-04-16 23:30:47][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/bj-07/
+[2024-04-16 23:30:50][Debug] Brand : YAMAHA, Model : XS 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-400/alle-bj/
+[2024-04-16 23:30:52][Debug] Brand : YAMAHA, Model : XS 650, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-650/alle-bj/
+[2024-04-16 23:30:54][Debug] Brand : YAMAHA, Model : XS 850, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-850/alle-bj/
+[2024-04-16 23:30:56][Debug] Brand : YAMAHA, Model : XSR 700, Year : BJ -21, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-700/bj-21/
+[2024-04-16 23:30:58][Debug] Brand : YAMAHA, Model : XSR 900, Year : BJ -16, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-900/bj-16/
+[2024-04-16 23:31:00][Debug] Brand : YAMAHA, Model : XT 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-125/alle-bj/
+[2024-04-16 23:31:02][Debug] Brand : YAMAHA, Model : XT 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-500/alle-bj/
+[2024-04-16 23:31:04][Debug] Brand : YAMAHA, Model : XT 600 E, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-600-e/alle-bj/
