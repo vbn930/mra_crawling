@@ -7,6 +7,8 @@ def translator(logger, src, dst, trans_str):
     result_str = ""
     is_translated = False
     error_cnt = 0
+    if trans_str == "":
+        return result_str
     while(not is_translated):
         if error_cnt > 5:
             logger.log(log_level="Error", log_msg=f"Failed to translate product description and shutdown the program")
@@ -32,7 +34,7 @@ class Logger:
 
     def save_logs(self):
         file_path = "log.txt"
-        with open(file_path, "w", encoding="cp949") as file:
+        with open(file_path, "w", encoding='UTF-8') as file:
             for log in self.log_stack:
                 file.write(log + "\n")
         

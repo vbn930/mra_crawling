@@ -1,136 +1,1010 @@
-[2024-04-16 23:27:41][Debug] Driver init
-[2024-04-16 23:27:42][Event] =MRA Crawler ver1.0=
-[2024-04-16 23:27:48][Debug] Get *https://www.mrashop.de/com/model-based-products/* page
-[2024-04-16 23:27:52][Event] Start point found! - Brand : YAMAHA, Model : BT 1100 Bulldog, Year : BJ 02-
-[2024-04-16 23:27:52][Debug] Brand : YAMAHA, Model : BT 1100 Bulldog, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/bt-1100-bulldog/bj-02/
-[2024-04-16 23:27:53][Debug] Brand : YAMAHA, Model : BWS 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/bws-125/alle-bj/
-[2024-04-16 23:27:56][Debug] Brand : YAMAHA, Model : DT 125 R, Year : BJ 98-, Value : https://www.mrashop.de/com/model-based-products/yamaha/dt-125-r/bj-98/
-[2024-04-16 23:27:58][Debug] Brand : YAMAHA, Model : DT 125 RE / X, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/dt-125-re-x/alle-bj/
-[2024-04-16 23:27:59][Debug] Brand : YAMAHA, Model : FJ 1100, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1100/alle-bj/
-[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 86-87, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-86-87/
-[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 88-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-88-90/
-[2024-04-16 23:28:01][Debug] Brand : YAMAHA, Model : FJ 1200, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fj-1200/bj-91/
-[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ -05, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-05/
-[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 06-12, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-06-12/
-[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 13-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-13/
-[2024-04-16 23:28:03][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 16-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-16/
-[2024-04-16 23:28:05][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005756
-[2024-04-16 23:28:05][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/
-[2024-04-16 23:28:08][Debug] Brand : YAMAHA, Model : FZ 1 Fazer, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/
-[2024-04-16 23:28:10][Debug] Brand : YAMAHA, Model : FZ 6, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6/bj-07/
-[2024-04-16 23:28:12][Debug] Brand : YAMAHA, Model : FZ 6 R, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6-r/bj-10/
-[2024-04-16 23:28:14][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/cat/index/sCategory/90005761
-[2024-04-16 23:28:14][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600/alle-bj/
-[2024-04-16 23:28:16][Debug] Brand : YAMAHA, Model : FZ 600 S FAZER, Year : BJ 04-06, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s-fazer/bj-04-06/
-[2024-04-16 23:28:18][Debug] Brand : YAMAHA, Model : FZ 600 S2 FAZER, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s2-fazer/bj-07/
-[2024-04-16 23:28:21][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ -86, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-86/
-[2024-04-16 23:28:21][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-85/
-[2024-04-16 23:28:22][Debug] Brand : YAMAHA, Model : FZ 8 Fazer, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-fazer/bj-10/
-[2024-04-16 23:28:25][Debug] Brand : YAMAHA, Model : FZ 8 N, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-n/bj-10/
-[2024-04-16 23:28:26][Debug] Brand : YAMAHA, Model : FZ-07, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-07/bj-14/
-[2024-04-16 23:28:28][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-14/
-[2024-04-16 23:28:28][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-17-20/
-[2024-04-16 23:28:30][Debug] Brand : YAMAHA, Model : FZR 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400/alle-bj/
-[2024-04-16 23:28:32][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 91-91, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-91-91/
-[2024-04-16 23:28:32][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-94-95/
-[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ -90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-90/
-[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-91-93/
-[2024-04-16 23:28:34][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-94-95/
-[2024-04-16 23:28:37][Debug] Brand : YAMAHA, Model : FZR 750, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-750/alle-bj/
-[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ -88, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-88/
-[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 89-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-89-90/
-[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-94-95/
-[2024-04-16 23:28:39][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-91-93/
-[2024-04-16 23:28:41][Debug] Brand : YAMAHA, Model : FZS 6 (S2), Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-6-s2/alle-bj/
-[2024-04-16 23:28:43][Debug] Brand : YAMAHA, Model : FZS 1, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1/alle-bj/
-[2024-04-16 23:28:46][Debug] Brand : YAMAHA, Model : FZS 1000 Fazer, Year : BJ 01-05, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1000-fazer/bj-01-05/
-[2024-04-16 23:28:48][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 98-01, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-98-01/
-[2024-04-16 23:28:48][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 02-03, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-02-03/
-[2024-04-16 23:28:50][Debug] Brand : YAMAHA, Model : GTS 1000, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/gts-1000/bj-93/
-[2024-04-16 23:28:52][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-09/
-[2024-04-16 23:28:52][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 04-08, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-04-08/
-[2024-04-16 23:28:54][Debug] Brand : YAMAHA, Model : Majesty YP 250 R, Year : BJ 99-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-yp-250-r/bj-99/
-[2024-04-16 23:28:56][Debug] Brand : YAMAHA, Model : MT-01, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-01/alle-bj/
-[2024-04-16 23:28:58][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ -14, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-14/
-[2024-04-16 23:28:58][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-15-19/
-[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 14-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-14-17/
-[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 18-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-18-20/
-[2024-04-16 23:29:00][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-21/
-[2024-04-16 23:29:03][Debug] Brand : YAMAHA, Model : MT-07 Tracer, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07-tracer/bj-16-19/
-[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 21-23, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-21-23/
-[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 14-16, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-14-16/
-[2024-04-16 23:29:04][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-17-20/
-[2024-04-16 23:29:06][Debug] Brand : YAMAHA, Model : MT-09 Tracer, Year : BJ 15-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09-tracer/bj-15-17/
-[2024-04-16 23:29:08][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 16-21, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-16-21/
-[2024-04-16 23:29:08][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 22-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-22/
-[2024-04-16 23:29:10][Debug] Brand : YAMAHA, Model : MT-125, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-125/bj-15-19/
-[2024-04-16 23:29:11][Debug] Brand : YAMAHA, Model : Neos 4T 50, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/neos-4t-50/alle-bj/
-[2024-04-16 23:29:14][Debug] Brand : YAMAHA, Model : NMax 125 / 150, Year : BJ 16-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/nmax-125-150/bj-16-20/
-[2024-04-16 23:29:16][Debug] Brand : YAMAHA, Model : R 6S, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/r-6s/bj-06/
-[2024-04-16 23:29:18][Debug] Brand : YAMAHA, Model : RD 350, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350/alle-bj/
-[2024-04-16 23:29:19][Debug] Brand : YAMAHA, Model : RD 350 Lenkerverkleidung, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350-lenkerverkleidung/alle-bj/
-[2024-04-16 23:29:22][Debug] Brand : YAMAHA, Model : RD 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-500/alle-bj/
-[2024-04-16 23:29:23][Debug] Brand : YAMAHA, Model : SR 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-125/alle-bj/
-[2024-04-16 23:29:26][Debug] Brand : YAMAHA, Model : SR 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-500/alle-bj/
-[2024-04-16 23:29:28][Debug] Brand : YAMAHA, Model : SZR 660, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/szr-660/bj-96/
-[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 01-07, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-01-07/
-[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 08-11, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-08-11/
-[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 12-15, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-12-15/
-[2024-04-16 23:29:31][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-21/
-[2024-04-16 23:29:32][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ -95, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-95/
-[2024-04-16 23:29:32][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-96/
-[2024-04-16 23:29:35][Debug] Brand : YAMAHA, Model : TDM 900, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-900/bj-02/
-[2024-04-16 23:29:36][Debug] Brand : YAMAHA, Model : Tenere 700, Year : BJ 19-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tenere-700/bj-19/
-[2024-04-16 23:29:39][Debug] Brand : YAMAHA, Model : Tracer 7, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-7/bj-21/
-[2024-04-16 23:29:41][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-16-19/
-[2024-04-16 23:29:41][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 20-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-20/
-[2024-04-16 23:29:43][Debug] Brand : YAMAHA, Model : Tracer 9 /GT, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-9-gt/bj-21/
-[2024-04-16 23:29:45][Debug] Brand : YAMAHA, Model : Tracer 900 /GT, Year : BJ 18-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-900-gt/bj-18/
-[2024-04-16 23:29:47][Debug] Brand : YAMAHA, Model : Tricity 125, Year : BJ -19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tricity-125/bj-19/
-[2024-04-16 23:29:49][Debug] Brand : YAMAHA, Model : TRX 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/trx-850/bj-96/
-[2024-04-16 23:29:52][Debug] Brand : YAMAHA, Model : TT 600 E / S, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tt-600-e-s/alle-bj/
-[2024-04-16 23:29:53][Debug] Brand : YAMAHA, Model : TW 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tw-125/alle-bj/
-[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 88-92, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-88-92/
-[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-91/
-[2024-04-16 23:29:56][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-93/
-[2024-04-16 23:29:57][Debug] Brand : YAMAHA, Model : TZR 250, Year : BJ -89, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-250/bj-89/
-[2024-04-16 23:30:00][Debug] Brand : YAMAHA, Model : V Max 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005818
-[2024-04-16 23:30:02][Debug] Brand : YAMAHA, Model : V-MAX, Year : BJ -11, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max/bj-11/
-[2024-04-16 23:30:04][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-85/
-[2024-04-16 23:30:04][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 86-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-86/
-[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 88-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-88/
-[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 89-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-89/
-[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-91/
-[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-93/
-[2024-04-16 23:30:05][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-96/
-[2024-04-16 23:30:07][Debug] Brand : YAMAHA, Model : V-MAX 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1700/bj-08/
-[2024-04-16 23:30:09][Debug] Brand : YAMAHA, Model : X-City 125/250, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-city-125250/bj-07/
-[2024-04-16 23:30:11][Debug] Brand : YAMAHA, Model : X-Max 125/250, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-max-125250/alle-bj/
-[2024-04-16 23:30:13][Debug] Brand : YAMAHA, Model : XJ 6, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6/alle-bj/
-[2024-04-16 23:30:15][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion/bj-09/
-[2024-04-16 23:30:18][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION F, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion-f/bj-10/
-[2024-04-16 23:30:20][Debug] Brand : YAMAHA, Model : XJ 600 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-f/alle-bj/
-[2024-04-16 23:30:22][Debug] Brand : YAMAHA, Model : XJ 600 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-n/alle-bj/
-[2024-04-16 23:30:24][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-96/
-[2024-04-16 23:30:24][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 93-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-93-95/
-[2024-04-16 23:30:27][Debug] Brand : YAMAHA, Model : XJ 650 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-650-n/alle-bj/
-[2024-04-16 23:30:29][Debug] Brand : YAMAHA, Model : XJ 750 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-f/alle-bj/
-[2024-04-16 23:30:31][Debug] Brand : YAMAHA, Model : XJ 750 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-n/alle-bj/
-[2024-04-16 23:30:33][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 83-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-83/
-[2024-04-16 23:30:33][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-85/
-[2024-04-16 23:30:36][Debug] Brand : YAMAHA, Model : XJ 900 F, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-f/bj-85/
-[2024-04-16 23:30:38][Debug] Brand : YAMAHA, Model : XJ 900 S, Year : BJ 95-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-s/bj-95/
-[2024-04-16 23:30:40][Debug] Brand : YAMAHA, Model : XJR 1200, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200/bj-01/
-[2024-04-16 23:30:42][Debug] Brand : YAMAHA, Model : XJR 1200 NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200-nakedbike/alle-bj/
-[2024-04-16 23:30:45][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-01/
-[2024-04-16 23:30:45][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-02/
-[2024-04-16 23:30:47][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/alle-bj/
-[2024-04-16 23:30:47][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/bj-07/
-[2024-04-16 23:30:50][Debug] Brand : YAMAHA, Model : XS 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-400/alle-bj/
-[2024-04-16 23:30:52][Debug] Brand : YAMAHA, Model : XS 650, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-650/alle-bj/
-[2024-04-16 23:30:54][Debug] Brand : YAMAHA, Model : XS 850, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-850/alle-bj/
-[2024-04-16 23:30:56][Debug] Brand : YAMAHA, Model : XSR 700, Year : BJ -21, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-700/bj-21/
-[2024-04-16 23:30:58][Debug] Brand : YAMAHA, Model : XSR 900, Year : BJ -16, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-900/bj-16/
-[2024-04-16 23:31:00][Debug] Brand : YAMAHA, Model : XT 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-125/alle-bj/
-[2024-04-16 23:31:02][Debug] Brand : YAMAHA, Model : XT 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-500/alle-bj/
-[2024-04-16 23:31:04][Debug] Brand : YAMAHA, Model : XT 600 E, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-600-e/alle-bj/
+[2024-04-17 12:45:35][Debug] Driver init
+[2024-04-17 12:45:36][Event] =MRA Crawler ver1.0=
+[2024-04-17 12:45:42][Debug] Get *https://www.mrashop.de/com/model-based-products/* page
+[2024-04-17 12:45:47][Event] Start point found! - Brand : YAMAHA, Model : FJR 1300, Year : BJ 16-
+[2024-04-17 12:45:47][Debug] Brand : YAMAHA, Model : FJR 1300, Year : BJ 16-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-16/
+[2024-04-17 12:45:50][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005756
+[2024-04-17 12:45:50][Debug] Brand : YAMAHA, Model : FZ 1, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/
+[2024-04-17 12:45:52][Debug] Brand : YAMAHA, Model : FZ 1 Fazer, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/
+[2024-04-17 12:45:54][Debug] Brand : YAMAHA, Model : FZ 6, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6/bj-07/
+[2024-04-17 12:45:56][Debug] Brand : YAMAHA, Model : FZ 6 R, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-6-r/bj-10/
+[2024-04-17 12:45:58][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/cat/index/sCategory/90005761
+[2024-04-17 12:45:58][Debug] Brand : YAMAHA, Model : FZ 600, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600/alle-bj/
+[2024-04-17 12:46:01][Debug] Brand : YAMAHA, Model : FZ 600 S FAZER, Year : BJ 04-06, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s-fazer/bj-04-06/
+[2024-04-17 12:46:03][Debug] Brand : YAMAHA, Model : FZ 600 S2 FAZER, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-600-s2-fazer/bj-07/
+[2024-04-17 12:46:05][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ -86, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-86/
+[2024-04-17 12:46:05][Debug] Brand : YAMAHA, Model : FZ 750, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-750/bj-85/
+[2024-04-17 12:46:07][Debug] Brand : YAMAHA, Model : FZ 8 Fazer, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-fazer/bj-10/
+[2024-04-17 12:46:09][Debug] Brand : YAMAHA, Model : FZ 8 N, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-8-n/bj-10/
+[2024-04-17 12:46:10][Debug] Brand : YAMAHA, Model : FZ-07, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-07/bj-14/
+[2024-04-17 12:46:12][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-14/
+[2024-04-17 12:46:12][Debug] Brand : YAMAHA, Model : FZ-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/fz-09/bj-17-20/
+[2024-04-17 12:46:14][Debug] Brand : YAMAHA, Model : FZR 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400/alle-bj/
+[2024-04-17 12:46:16][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 91-91, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-91-91/
+[2024-04-17 12:46:16][Debug] Brand : YAMAHA, Model : FZR 400 RR / Exup, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-400-rr-exup/bj-94-95/
+[2024-04-17 12:46:18][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ -90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-90/
+[2024-04-17 12:46:18][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-91-93/
+[2024-04-17 12:46:18][Debug] Brand : YAMAHA, Model : FZR 600, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-600/bj-94-95/
+[2024-04-17 12:46:21][Debug] Brand : YAMAHA, Model : FZR 750, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-750/alle-bj/
+[2024-04-17 12:46:23][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ -88, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-88/
+[2024-04-17 12:46:23][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 89-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-89-90/
+[2024-04-17 12:46:23][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 94-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-94-95/
+[2024-04-17 12:46:23][Debug] Brand : YAMAHA, Model : FZR 1000, Year : BJ 91-93, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzr-1000/bj-91-93/
+[2024-04-17 12:46:25][Debug] Brand : YAMAHA, Model : FZS 6 (S2), Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-6-s2/alle-bj/
+[2024-04-17 12:46:27][Debug] Brand : YAMAHA, Model : FZS 1, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1/alle-bj/
+[2024-04-17 12:46:30][Debug] Brand : YAMAHA, Model : FZS 1000 Fazer, Year : BJ 01-05, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-1000-fazer/bj-01-05/
+[2024-04-17 12:46:32][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 98-01, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-98-01/
+[2024-04-17 12:46:32][Debug] Brand : YAMAHA, Model : FZS 600 Fazer, Year : BJ 02-03, Value : https://www.mrashop.de/com/model-based-products/yamaha/fzs-600-fazer/bj-02-03/
+[2024-04-17 12:46:35][Debug] Brand : YAMAHA, Model : GTS 1000, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/gts-1000/bj-93/
+[2024-04-17 12:46:36][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-09/
+[2024-04-17 12:46:36][Debug] Brand : YAMAHA, Model : Majesty 400, Year : BJ 04-08, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-400/bj-04-08/
+[2024-04-17 12:46:39][Debug] Brand : YAMAHA, Model : Majesty YP 250 R, Year : BJ 99-, Value : https://www.mrashop.de/com/model-based-products/yamaha/majesty-yp-250-r/bj-99/
+[2024-04-17 12:46:41][Debug] Brand : YAMAHA, Model : MT-01, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-01/alle-bj/
+[2024-04-17 12:46:43][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ -14, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-14/
+[2024-04-17 12:46:43][Debug] Brand : YAMAHA, Model : MT-03, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-03/bj-15-19/
+[2024-04-17 12:46:45][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 14-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-14-17/
+[2024-04-17 12:46:45][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 18-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-18-20/
+[2024-04-17 12:46:45][Debug] Brand : YAMAHA, Model : MT-07, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07/bj-21/
+[2024-04-17 12:46:47][Debug] Brand : YAMAHA, Model : MT-07 Tracer, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-07-tracer/bj-16-19/
+[2024-04-17 12:46:49][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 21-23, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-21-23/
+[2024-04-17 12:46:49][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 14-16, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-14-16/
+[2024-04-17 12:46:49][Debug] Brand : YAMAHA, Model : MT-09, Year : BJ 17-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09/bj-17-20/
+[2024-04-17 12:46:51][Debug] Brand : YAMAHA, Model : MT-09 Tracer, Year : BJ 15-17, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-09-tracer/bj-15-17/
+[2024-04-17 12:46:53][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 16-21, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-16-21/
+[2024-04-17 12:46:53][Debug] Brand : YAMAHA, Model : MT-10 /SP, Year : BJ 22-, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-10-sp/bj-22/
+[2024-04-17 12:46:55][Debug] Brand : YAMAHA, Model : MT-125, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/mt-125/bj-15-19/
+[2024-04-17 12:46:57][Debug] Brand : YAMAHA, Model : Neos 4T 50, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/neos-4t-50/alle-bj/
+[2024-04-17 12:46:59][Debug] Brand : YAMAHA, Model : NMax 125 / 150, Year : BJ 16-20, Value : https://www.mrashop.de/com/model-based-products/yamaha/nmax-125-150/bj-16-20/
+[2024-04-17 12:47:01][Debug] Brand : YAMAHA, Model : R 6S, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/r-6s/bj-06/
+[2024-04-17 12:47:04][Debug] Brand : YAMAHA, Model : RD 350, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350/alle-bj/
+[2024-04-17 12:47:05][Debug] Brand : YAMAHA, Model : RD 350 Lenkerverkleidung, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-350-lenkerverkleidung/alle-bj/
+[2024-04-17 12:47:07][Debug] Brand : YAMAHA, Model : RD 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/rd-500/alle-bj/
+[2024-04-17 12:47:09][Debug] Brand : YAMAHA, Model : SR 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-125/alle-bj/
+[2024-04-17 12:47:12][Debug] Brand : YAMAHA, Model : SR 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/sr-500/alle-bj/
+[2024-04-17 12:47:13][Debug] Brand : YAMAHA, Model : SZR 660, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/szr-660/bj-96/
+[2024-04-17 12:47:17][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 01-07, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-01-07/
+[2024-04-17 12:47:17][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 08-11, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-08-11/
+[2024-04-17 12:47:17][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 12-15, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-12-15/
+[2024-04-17 12:47:17][Debug] Brand : YAMAHA, Model : T-MAX, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/t-max/bj-21/
+[2024-04-17 12:47:18][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ -95, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-95/
+[2024-04-17 12:47:18][Debug] Brand : YAMAHA, Model : TDM 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-850/bj-96/
+[2024-04-17 12:47:21][Debug] Brand : YAMAHA, Model : TDM 900, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tdm-900/bj-02/
+[2024-04-17 12:47:23][Debug] Brand : YAMAHA, Model : Tenere 700, Year : BJ 19-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tenere-700/bj-19/
+[2024-04-17 12:47:25][Debug] Brand : YAMAHA, Model : Tracer 7, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-7/bj-21/
+[2024-04-17 12:47:27][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 16-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-16-19/
+[2024-04-17 12:47:27][Debug] Brand : YAMAHA, Model : Tracer 700, Year : BJ 20-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-700/bj-20/
+[2024-04-17 12:47:30][Debug] Brand : YAMAHA, Model : Tracer 9 /GT, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-9-gt/bj-21/
+[2024-04-17 12:47:32][Debug] Brand : YAMAHA, Model : Tracer 900 /GT, Year : BJ 18-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tracer-900-gt/bj-18/
+[2024-04-17 12:47:34][Debug] Brand : YAMAHA, Model : Tricity 125, Year : BJ -19, Value : https://www.mrashop.de/com/model-based-products/yamaha/tricity-125/bj-19/
+[2024-04-17 12:47:36][Debug] Brand : YAMAHA, Model : TRX 850, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/trx-850/bj-96/
+[2024-04-17 12:47:38][Debug] Brand : YAMAHA, Model : TT 600 E / S, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tt-600-e-s/alle-bj/
+[2024-04-17 12:47:40][Debug] Brand : YAMAHA, Model : TW 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/tw-125/alle-bj/
+[2024-04-17 12:47:42][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 88-92, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-88-92/
+[2024-04-17 12:47:42][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-91/
+[2024-04-17 12:47:42][Debug] Brand : YAMAHA, Model : TZR 125, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-125/bj-93/
+[2024-04-17 12:47:44][Debug] Brand : YAMAHA, Model : TZR 250, Year : BJ -89, Value : https://www.mrashop.de/com/model-based-products/yamaha/tzr-250/bj-89/
+[2024-04-17 12:47:46][Debug] Brand : YAMAHA, Model : V Max 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005818
+[2024-04-17 12:47:48][Debug] Brand : YAMAHA, Model : V-MAX, Year : BJ -11, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max/bj-11/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-85/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 86-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-86/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 88-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-88/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 89-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-89/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 91-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-91/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 93-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-93/
+[2024-04-17 12:47:51][Debug] Brand : YAMAHA, Model : V-MAX 1200, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1200/bj-96/
+[2024-04-17 12:47:53][Debug] Brand : YAMAHA, Model : V-MAX 1700, Year : BJ 08-, Value : https://www.mrashop.de/com/model-based-products/yamaha/v-max-1700/bj-08/
+[2024-04-17 12:47:55][Debug] Brand : YAMAHA, Model : X-City 125/250, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-city-125250/bj-07/
+[2024-04-17 12:47:57][Debug] Brand : YAMAHA, Model : X-Max 125/250, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/x-max-125250/alle-bj/
+[2024-04-17 12:47:59][Debug] Brand : YAMAHA, Model : XJ 6, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6/alle-bj/
+[2024-04-17 12:48:01][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION, Year : BJ 09-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion/bj-09/
+[2024-04-17 12:48:04][Debug] Brand : YAMAHA, Model : XJ 6 DIVERSION F, Year : BJ 10-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-6-diversion-f/bj-10/
+[2024-04-17 12:48:06][Debug] Brand : YAMAHA, Model : XJ 600 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-f/alle-bj/
+[2024-04-17 12:48:08][Debug] Brand : YAMAHA, Model : XJ 600 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-n/alle-bj/
+[2024-04-17 12:48:10][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-96/
+[2024-04-17 12:48:10][Debug] Brand : YAMAHA, Model : XJ 600 S, Year : BJ 93-95, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-600-s/bj-93-95/
+[2024-04-17 12:48:13][Debug] Brand : YAMAHA, Model : XJ 650 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-650-n/alle-bj/
+[2024-04-17 12:48:15][Debug] Brand : YAMAHA, Model : XJ 750 F, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-f/alle-bj/
+[2024-04-17 12:48:17][Debug] Brand : YAMAHA, Model : XJ 750 N, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-750-n/alle-bj/
+[2024-04-17 12:48:19][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 83-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-83/
+[2024-04-17 12:48:19][Debug] Brand : YAMAHA, Model : XJ 900, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900/bj-85/
+[2024-04-17 12:48:22][Debug] Brand : YAMAHA, Model : XJ 900 F, Year : BJ 85-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-f/bj-85/
+[2024-04-17 12:48:24][Debug] Brand : YAMAHA, Model : XJ 900 S, Year : BJ 95-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xj-900-s/bj-95/
+[2024-04-17 12:48:26][Debug] Brand : YAMAHA, Model : XJR 1200, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200/bj-01/
+[2024-04-17 12:48:28][Debug] Brand : YAMAHA, Model : XJR 1200 NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1200-nakedbike/alle-bj/
+[2024-04-17 12:48:31][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ -01, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-01/
+[2024-04-17 12:48:31][Debug] Brand : YAMAHA, Model : XJR 1300, Year : BJ 02-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300/bj-02/
+[2024-04-17 12:48:33][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/alle-bj/
+[2024-04-17 12:48:33][Debug] Brand : YAMAHA, Model : XJR 1300 / SP NakedBike, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xjr-1300-sp-nakedbike/bj-07/
+[2024-04-17 12:48:36][Debug] Brand : YAMAHA, Model : XS 400, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-400/alle-bj/
+[2024-04-17 12:48:38][Debug] Brand : YAMAHA, Model : XS 650, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-650/alle-bj/
+[2024-04-17 12:48:40][Debug] Brand : YAMAHA, Model : XS 850, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xs-850/alle-bj/
+[2024-04-17 12:48:42][Debug] Brand : YAMAHA, Model : XSR 700, Year : BJ -21, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-700/bj-21/
+[2024-04-17 12:48:44][Debug] Brand : YAMAHA, Model : XSR 900, Year : BJ -16, Value : https://www.mrashop.de/com/model-based-products/yamaha/xsr-900/bj-16/
+[2024-04-17 12:48:46][Debug] Brand : YAMAHA, Model : XT 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-125/alle-bj/
+[2024-04-17 12:48:49][Debug] Brand : YAMAHA, Model : XT 500, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-500/alle-bj/
+[2024-04-17 12:48:51][Debug] Brand : YAMAHA, Model : XT 600 E, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-600-e/alle-bj/
+[2024-04-17 12:48:53][Debug] Brand : YAMAHA, Model : XT 600 Z Ténéré, Year : BJ 88-90, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-600-z-tenere/bj-88-90/
+[2024-04-17 12:48:55][Debug] Brand : YAMAHA, Model : XT 1200 Z /ZE, Year : BJ 10-13, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-1200-z-ze/bj-10-13/
+[2024-04-17 12:48:55][Debug] Brand : YAMAHA, Model : XT 1200 Z /ZE, Year : BJ 14-, Value : https://www.mrashop.de/com/cat/index/sCategory/90005921
+[2024-04-17 12:48:55][Debug] Brand : YAMAHA, Model : XT 1200 Z /ZE, Year : BJ 14-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-1200-z-ze/bj-14/
+[2024-04-17 12:48:57][Debug] Brand : YAMAHA, Model : XT 660 R, Year : BJ 04-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xt-660-r/bj-04/
+[2024-04-17 12:48:59][Debug] Brand : YAMAHA, Model : XTZ 660, Year : BJ 91-99, Value : https://www.mrashop.de/com/model-based-products/yamaha/xtz-660/bj-91-99/
+[2024-04-17 12:49:01][Debug] Brand : YAMAHA, Model : XTZ 750 Super Ténéré, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xtz-750-super-tenere/alle-bj/
+[2024-04-17 12:49:03][Debug] Brand : YAMAHA, Model : XV 125 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-125-virago/alle-bj/
+[2024-04-17 12:49:06][Debug] Brand : YAMAHA, Model : XV 250, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-250/alle-bj/
+[2024-04-17 12:49:08][Debug] Brand : YAMAHA, Model : XV 250 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-250-virago/alle-bj/
+[2024-04-17 12:49:11][Debug] Brand : YAMAHA, Model : XV 535 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-535-virago/alle-bj/
+[2024-04-17 12:49:13][Debug] Brand : YAMAHA, Model : XV 750 SE, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-750-se/alle-bj/
+[2024-04-17 12:49:15][Debug] Brand : YAMAHA, Model : XV 750 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-750-virago/alle-bj/
+[2024-04-17 12:49:17][Debug] Brand : YAMAHA, Model : XV 1000 SE Midn. Spec., Year : BJ 83-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1000-se-midn.-spec./bj-83/
+[2024-04-17 12:49:20][Debug] Brand : YAMAHA, Model : XV 1000 TR1, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1000-tr1/alle-bj/
+[2024-04-17 12:49:22][Debug] Brand : YAMAHA, Model : XV 1000 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1000-virago/alle-bj/
+[2024-04-17 12:49:25][Debug] Brand : YAMAHA, Model : XV 1100 Virago, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1100-virago/alle-bj/
+[2024-04-17 12:49:27][Debug] Brand : YAMAHA, Model : XV 1600, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1600/alle-bj/
+[2024-04-17 12:49:30][Debug] Brand : YAMAHA, Model : XV 1600 Wild Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1600-wild-star/alle-bj/
+[2024-04-17 12:49:32][Debug] Brand : YAMAHA, Model : XV 1700 Road Star Warrior, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1700-road-star-warrior/alle-bj/
+[2024-04-17 12:49:34][Debug] Brand : YAMAHA, Model : XV 1900 Midnight Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xv-1900-midnight-star/alle-bj/
+[2024-04-17 12:49:36][Debug] Brand : YAMAHA, Model : XVS 125 Drag Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-125-drag-star/alle-bj/
+[2024-04-17 12:49:39][Debug] Brand : YAMAHA, Model : XVS 250 Drag Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-250-drag-star/alle-bj/
+[2024-04-17 12:49:39][Debug] Brand : YAMAHA, Model : XVS 250 Drag Star, Year : BJ 00-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-250-drag-star/bj-00/
+[2024-04-17 12:49:41][Debug] Brand : YAMAHA, Model : XVS 650 American Classic, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-650-american-classic/alle-bj/
+[2024-04-17 12:49:44][Debug] Brand : YAMAHA, Model : XVS 650 Drag Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-650-drag-star/alle-bj/
+[2024-04-17 12:49:46][Debug] Brand : YAMAHA, Model : XVS 1100 American Classic, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-1100-american-classic/alle-bj/
+[2024-04-17 12:49:48][Debug] Brand : YAMAHA, Model : XVS 1100 Drag Star, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-1100-drag-star/alle-bj/
+[2024-04-17 12:49:50][Debug] Brand : YAMAHA, Model : XVS 1300 A Midnight Star, Year : BJ 06-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-1300-a-midnight-star/bj-06/
+[2024-04-17 12:49:53][Debug] Brand : YAMAHA, Model : XVS 950 Midnight Star, Year : BJ 08-, Value : https://www.mrashop.de/com/model-based-products/yamaha/xvs-950-midnight-star/bj-08/
+[2024-04-17 12:49:55][Debug] Brand : YAMAHA, Model : XZ 550 S, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/xz-550-s/alle-bj/
+[2024-04-17 12:49:58][Debug] Brand : YAMAHA, Model : YBR 125, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/ybr-125/alle-bj/
+[2024-04-17 12:50:00][Debug] Brand : YAMAHA, Model : YBR 250, Year : BJ 07-, Value : https://www.mrashop.de/com/model-based-products/yamaha/ybr-250/bj-07/
+[2024-04-17 12:50:02][Debug] Brand : YAMAHA, Model : YP 300 R X-Max, Year : BJ 20-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yp-300-r-x-max/bj-20/
+[2024-04-17 12:50:04][Debug] Brand : YAMAHA, Model : YP 400 R X-Max, Year : BJ 13-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yp-400-r-x-max/bj-13/
+[2024-04-17 12:50:07][Debug] Brand : YAMAHA, Model : YZF 600 R Thundercat, Year : BJ 96-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-600-r-thundercat/bj-96/
+[2024-04-17 12:50:09][Debug] Brand : YAMAHA, Model : YZF 750 R, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-750-r/alle-bj/
+[2024-04-17 12:50:11][Debug] Brand : YAMAHA, Model : YZF 750 SP, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-750-sp/alle-bj/
+[2024-04-17 12:50:13][Debug] Brand : YAMAHA, Model : YZF 1000 R Thunderace, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-1000-r-thunderace/alle-bj/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 00-01, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-00-01/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 02-03, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-02-03/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 04-06, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-04-06/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 07-08, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-07-08/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 09-14, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-09-14/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 15-19, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-15-19/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 20-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-20/
+[2024-04-17 12:50:16][Debug] Brand : YAMAHA, Model : YZF R 1, Year : BJ 98-99, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-1/bj-98-99/
+[2024-04-17 12:50:18][Debug] Brand : YAMAHA, Model : YZF R 125, Year : BJ 08-18, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-125/bj-08-18/
+[2024-04-17 12:50:18][Debug] Brand : YAMAHA, Model : YZF R 125, Year : BJ 19-22, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-125/bj-19-22/
+[2024-04-17 12:50:20][Debug] Brand : YAMAHA, Model : YZF R 25, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-25/alle-bj/
+[2024-04-17 12:50:22][Debug] Brand : YAMAHA, Model : YZF R 3, Year : BJ 19-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-3/bj-19/
+[2024-04-17 12:50:24][Debug] Brand : YAMAHA, Model : YZF R 3a, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-3a/alle-bj/
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 99-02, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-6/bj-99-02/
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 03-05, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-6/bj-03-05/
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 06-07, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-6/bj-06-07/
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 08-16, Value : https://www.mrashop.de/com/cat/index/sCategory/90005901
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 17-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-6/bj-17/
+[2024-04-17 12:50:27][Debug] Brand : YAMAHA, Model : YZF R 6, Year : BJ 08-16, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-6/bj-08-16/
+[2024-04-17 12:50:29][Debug] Brand : YAMAHA, Model : YZF R 7, Year : BJ 21-, Value : https://www.mrashop.de/com/model-based-products/yamaha/yzf-r-7/bj-21/
+[2024-04-17 12:50:32][Debug] Brand : ZERO, Model : DS /R, Year : alle BJ, Value : https://www.mrashop.de/com/model-based-products/zero/ds-r/alle-bj/
+[2024-04-17 12:50:32][Event] Current maker : YAMAHA, model : FJR 1300, year : BJ 16-
+[2024-04-17 12:50:34][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-16/?p=1* page
+[2024-04-17 12:50:36][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fjr-1300/bj-16/?p=2* page
+[2024-04-17 12:51:04][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7187/vsa-typ-a-30/19-cm-vario-touring-part-vsa.a-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:51:09][Debug] Image 'mra-4025066155040_1' download completed
+[2024-04-17 12:51:14][Debug] Image 'mra-4025066155040_2' download completed
+[2024-04-17 12:51:20][Debug] Image 'mra-4025066155040_3' download completed
+[2024-04-17 12:51:24][Debug] Image 'mra-4025066155040_4' download completed
+[2024-04-17 12:51:29][Debug] Image 'mra-4025066155040_5' download completed
+[2024-04-17 12:51:34][Debug] Image 'mra-4025066155040_6' download completed
+[2024-04-17 12:51:39][Debug] Image 'mra-4025066155040_7' download completed
+[2024-04-17 12:51:44][Debug] Image 'mra-4025066155040_8' download completed
+[2024-04-17 12:51:49][Debug] Image 'mra-4025066155040_9' download completed
+[2024-04-17 12:51:54][Debug] Image 'mra-4025066155040_10' download completed
+[2024-04-17 12:51:56][Debug] Image 'mra-4025066155040_11' download completed
+[2024-04-17 12:51:58][Debug] Image 'mra-4025066155040_12' download completed
+[2024-04-17 12:52:01][Event] Product 'VSA-TYP A (30/19 CM) - Vario-Touring-part "VSA.A" incl. clamps all years' information crawling completed
+[2024-04-17 12:52:17][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7189/vsa-typ-b-33/22-cm-vario-touring-part-vsa.b-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:52:22][Debug] Image 'mra-4025066155125_1' download completed
+[2024-04-17 12:52:27][Debug] Image 'mra-4025066155125_2' download completed
+[2024-04-17 12:52:33][Debug] Image 'mra-4025066155125_3' download completed
+[2024-04-17 12:52:38][Debug] Image 'mra-4025066155125_4' download completed
+[2024-04-17 12:52:43][Debug] Image 'mra-4025066155125_5' download completed
+[2024-04-17 12:52:48][Debug] Image 'mra-4025066155125_6' download completed
+[2024-04-17 12:52:53][Debug] Image 'mra-4025066155125_7' download completed
+[2024-04-17 12:52:58][Debug] Image 'mra-4025066155125_8' download completed
+[2024-04-17 12:53:03][Debug] Image 'mra-4025066155125_9' download completed
+[2024-04-17 12:53:08][Debug] Image 'mra-4025066155125_10' download completed
+[2024-04-17 12:53:11][Debug] Image 'mra-4025066155125_11' download completed
+[2024-04-17 12:53:13][Debug] Image 'mra-4025066155125_12' download completed
+[2024-04-17 12:53:15][Event] Product 'VSA-TYP B (33/22 CM) - Vario-Touring-part "VSA.B" incl. clamps all years' information crawling completed
+[2024-04-17 12:53:34][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7188/vsa-typ-c-30/18-cm-vario-touring-part-vsa-c-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:53:38][Debug] Image 'mra-4025066157051_1' download completed
+[2024-04-17 12:53:43][Debug] Image 'mra-4025066157051_2' download completed
+[2024-04-17 12:53:47][Debug] Image 'mra-4025066157051_3' download completed
+[2024-04-17 12:53:51][Debug] Image 'mra-4025066157051_4' download completed
+[2024-04-17 12:53:56][Debug] Image 'mra-4025066157051_5' download completed
+[2024-04-17 12:54:00][Debug] Image 'mra-4025066157051_6' download completed
+[2024-04-17 12:54:05][Debug] Image 'mra-4025066157051_7' download completed
+[2024-04-17 12:54:09][Debug] Image 'mra-4025066157051_8' download completed
+[2024-04-17 12:54:14][Debug] Image 'mra-4025066157051_9' download completed
+[2024-04-17 12:54:18][Debug] Image 'mra-4025066157051_10' download completed
+[2024-04-17 12:54:21][Debug] Image 'mra-4025066157051_11' download completed
+[2024-04-17 12:54:23][Debug] Image 'mra-4025066157051_12' download completed
+[2024-04-17 12:54:25][Event] Product 'VSA-TYP C (30/18 CM) - Vario-Touring-part "VSA-C" incl. clamps all years' information crawling completed
+[2024-04-17 12:54:38][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5844/x-creen-touring-aufsatz-x-creen-touring-part-xcta-all-years?c=90006521* page
+[2024-04-17 12:54:41][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:43][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:45][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:47][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:49][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:51][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:54:51][Error] Img size is under 50KB or cannot download image 'mra-4025066125043_1'
+[2024-04-17 12:54:53][Debug] Image 'mra-4025066125043_2' download completed
+[2024-04-17 12:54:56][Debug] Image 'mra-4025066125043_3' download completed
+[2024-04-17 12:55:00][Debug] Image 'mra-4025066125043_4' download completed
+[2024-04-17 12:55:03][Debug] Image 'mra-4025066125043_5' download completed
+[2024-04-17 12:55:07][Debug] Image 'mra-4025066125043_6' download completed
+[2024-04-17 12:55:11][Debug] Image 'mra-4025066125043_7' download completed
+[2024-04-17 12:55:15][Debug] Image 'mra-4025066125043_8' download completed
+[2024-04-17 12:55:19][Debug] Image 'mra-4025066125043_9' download completed
+[2024-04-17 12:55:23][Debug] Image 'mra-4025066125043_10' download completed
+[2024-04-17 12:55:25][Event] Product 'X-CREEN TOURING AUFSATZ - X-creen-touring-part "XCTA" all years' information crawling completed
+[2024-04-17 12:55:30][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5898/x-creen-sport-aufsatz-x-creen-sport-part-xcsa-all-years?c=90006521* page
+[2024-04-17 12:55:33][Debug] Image 'mra-4025066139361_1' download completed
+[2024-04-17 12:55:36][Debug] Image 'mra-4025066139361_2' download completed
+[2024-04-17 12:55:39][Debug] Image 'mra-4025066139361_3' download completed
+[2024-04-17 12:55:41][Event] Product 'X-CREEN-SPORT AUFSATZ - X-creen-sport-part "XCSA" all years' information crawling completed
+[2024-04-17 12:55:41][Event] Current maker : YAMAHA, model : FZ 1, year : BJ 06-
+[2024-04-17 12:55:43][Debug] Get *https://www.mrashop.de/com/cat/index/sCategory/90005756?p=1* page
+[2024-04-17 12:55:46][Debug] Get *https://www.mrashop.de/com/cat/index/sCategory/90005756?p=2* page
+[2024-04-17 12:55:47][Debug] Get *https://www.mrashop.de/com/cat/index/sCategory/90005756?p=3* page
+[2024-04-17 12:55:59][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7187/vsa-typ-a-30/19-cm-vario-touring-part-vsa.a-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:56:04][Debug] Image 'mra-4025066155040_1' download completed
+[2024-04-17 12:56:09][Debug] Image 'mra-4025066155040_2' download completed
+[2024-04-17 12:56:15][Debug] Image 'mra-4025066155040_3' download completed
+[2024-04-17 12:56:19][Debug] Image 'mra-4025066155040_4' download completed
+[2024-04-17 12:56:24][Debug] Image 'mra-4025066155040_5' download completed
+[2024-04-17 12:56:29][Debug] Image 'mra-4025066155040_6' download completed
+[2024-04-17 12:56:34][Debug] Image 'mra-4025066155040_7' download completed
+[2024-04-17 12:56:39][Debug] Image 'mra-4025066155040_8' download completed
+[2024-04-17 12:56:44][Debug] Image 'mra-4025066155040_9' download completed
+[2024-04-17 12:56:49][Debug] Image 'mra-4025066155040_10' download completed
+[2024-04-17 12:56:51][Debug] Image 'mra-4025066155040_11' download completed
+[2024-04-17 12:56:54][Debug] Image 'mra-4025066155040_12' download completed
+[2024-04-17 12:56:56][Event] Product 'VSA-TYP A (30/19 CM) - Vario-Touring-part "VSA.A" incl. clamps all years' information crawling completed
+[2024-04-17 12:56:59][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7189/vsa-typ-b-33/22-cm-vario-touring-part-vsa.b-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:57:04][Debug] Image 'mra-4025066155125_1' download completed
+[2024-04-17 12:57:09][Debug] Image 'mra-4025066155125_2' download completed
+[2024-04-17 12:57:14][Debug] Image 'mra-4025066155125_3' download completed
+[2024-04-17 12:57:20][Debug] Image 'mra-4025066155125_4' download completed
+[2024-04-17 12:57:25][Debug] Image 'mra-4025066155125_5' download completed
+[2024-04-17 12:57:30][Debug] Image 'mra-4025066155125_6' download completed
+[2024-04-17 12:57:35][Debug] Image 'mra-4025066155125_7' download completed
+[2024-04-17 12:57:40][Debug] Image 'mra-4025066155125_8' download completed
+[2024-04-17 12:57:45][Debug] Image 'mra-4025066155125_9' download completed
+[2024-04-17 12:57:50][Debug] Image 'mra-4025066155125_10' download completed
+[2024-04-17 12:57:53][Debug] Image 'mra-4025066155125_11' download completed
+[2024-04-17 12:57:55][Debug] Image 'mra-4025066155125_12' download completed
+[2024-04-17 12:57:57][Event] Product 'VSA-TYP B (33/22 CM) - Vario-Touring-part "VSA.B" incl. clamps all years' information crawling completed
+[2024-04-17 12:58:00][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7188/vsa-typ-c-30/18-cm-vario-touring-part-vsa-c-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 12:58:05][Debug] Image 'mra-4025066157051_1' download completed
+[2024-04-17 12:58:09][Debug] Image 'mra-4025066157051_2' download completed
+[2024-04-17 12:58:13][Debug] Image 'mra-4025066157051_3' download completed
+[2024-04-17 12:58:18][Debug] Image 'mra-4025066157051_4' download completed
+[2024-04-17 12:58:22][Debug] Image 'mra-4025066157051_5' download completed
+[2024-04-17 12:58:26][Debug] Image 'mra-4025066157051_6' download completed
+[2024-04-17 12:58:31][Debug] Image 'mra-4025066157051_7' download completed
+[2024-04-17 12:58:35][Debug] Image 'mra-4025066157051_8' download completed
+[2024-04-17 12:58:40][Debug] Image 'mra-4025066157051_9' download completed
+[2024-04-17 12:58:44][Debug] Image 'mra-4025066157051_10' download completed
+[2024-04-17 12:58:46][Debug] Image 'mra-4025066157051_11' download completed
+[2024-04-17 12:58:49][Debug] Image 'mra-4025066157051_12' download completed
+[2024-04-17 12:58:51][Event] Product 'VSA-TYP C (30/18 CM) - Vario-Touring-part "VSA-C" incl. clamps all years' information crawling completed
+[2024-04-17 12:58:54][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5844/x-creen-touring-aufsatz-x-creen-touring-part-xcta-all-years?c=90006521* page
+[2024-04-17 12:58:56][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:58:58][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:59:00][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:59:02][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:59:04][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:59:06][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 12:59:06][Error] Img size is under 50KB or cannot download image 'mra-4025066125043_1'
+[2024-04-17 12:59:08][Debug] Image 'mra-4025066125043_2' download completed
+[2024-04-17 12:59:11][Debug] Image 'mra-4025066125043_3' download completed
+[2024-04-17 12:59:15][Debug] Image 'mra-4025066125043_4' download completed
+[2024-04-17 12:59:19][Debug] Image 'mra-4025066125043_5' download completed
+[2024-04-17 12:59:23][Debug] Image 'mra-4025066125043_6' download completed
+[2024-04-17 12:59:27][Debug] Image 'mra-4025066125043_7' download completed
+[2024-04-17 12:59:31][Debug] Image 'mra-4025066125043_8' download completed
+[2024-04-17 12:59:35][Debug] Image 'mra-4025066125043_9' download completed
+[2024-04-17 12:59:39][Debug] Image 'mra-4025066125043_10' download completed
+[2024-04-17 12:59:41][Event] Product 'X-CREEN TOURING AUFSATZ - X-creen-touring-part "XCTA" all years' information crawling completed
+[2024-04-17 12:59:44][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5898/x-creen-sport-aufsatz-x-creen-sport-part-xcsa-all-years?c=90006521* page
+[2024-04-17 12:59:47][Debug] Image 'mra-4025066139361_1' download completed
+[2024-04-17 12:59:50][Debug] Image 'mra-4025066139361_2' download completed
+[2024-04-17 12:59:52][Debug] Image 'mra-4025066139361_3' download completed
+[2024-04-17 12:59:55][Event] Product 'X-CREEN-SPORT AUFSATZ - X-creen-sport-part "XCSA" all years' information crawling completed
+[2024-04-17 13:00:03][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6247/customshield-customshield-cu-all-years?c=90005756* page
+[2024-04-17 13:00:07][Debug] Image 'mra-4025066949977_1' download completed
+[2024-04-17 13:00:12][Debug] Image 'mra-4025066949977_2' download completed
+[2024-04-17 13:00:15][Debug] Image 'mra-4025066949977_3' download completed
+[2024-04-17 13:00:19][Debug] Image 'mra-4025066949977_4' download completed
+[2024-04-17 13:00:23][Debug] Image 'mra-4025066949977_5' download completed
+[2024-04-17 13:00:27][Event] Product 'CUSTOMSHIELD - Customshield "CU" all years' information crawling completed
+[2024-04-17 13:00:30][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5438/highwayshield-highwayshield-hi-all-years?c=90005756* page
+[2024-04-17 13:00:33][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:35][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:36][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:38][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:40][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:42][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:00:42][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_1'
+[2024-04-17 13:00:43][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:45][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:47][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:48][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:50][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:52][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:00:52][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_2'
+[2024-04-17 13:00:54][Event] Product 'HIGHWAYSHIELD - Highwayshield "HI" all years' information crawling completed
+[2024-04-17 13:01:00][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5647/racing-screen-for-naked-bike-racing-screen-for-naked-bikes-rnb-all-years?c=90005756* page
+[2024-04-17 13:01:03][Debug] Image 'mra-4025066120659_1' download completed
+[2024-04-17 13:01:06][Debug] Image 'mra-4025066120659_2' download completed
+[2024-04-17 13:01:08][Debug] Image 'mra-4025066120659_3' download completed
+[2024-04-17 13:01:10][Debug] Image 'mra-4025066120659_4' download completed
+[2024-04-17 13:01:12][Debug] Image 'mra-4025066120659_5' download completed
+[2024-04-17 13:01:14][Debug] Image 'mra-4025066120659_6' download completed
+[2024-04-17 13:01:16][Debug] Image 'mra-4025066120659_7' download completed
+[2024-04-17 13:01:18][Debug] Image 'mra-4025066120659_8' download completed
+[2024-04-17 13:01:21][Debug] Image 'mra-4025066120659_9' download completed
+[2024-04-17 13:01:23][Event] Product 'RACING-SCREEN FOR NAKED BIKE - Racing-Screen for Naked-Bikes "RNB" all years' information crawling completed
+[2024-04-17 13:01:28][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7114/roadshield-roadshield-ro-all-years?c=90005756* page
+[2024-04-17 13:01:30][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:32][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:33][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:35][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:37][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:39][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:01:39][Error] Img size is under 50KB or cannot download image 'mra-4025066946075_1'
+[2024-04-17 13:01:41][Debug] Image 'mra-4025066946075_2' download completed
+[2024-04-17 13:01:44][Debug] Image 'mra-4025066946075_3' download completed
+[2024-04-17 13:01:47][Debug] Image 'mra-4025066946075_4' download completed
+[2024-04-17 13:01:49][Event] Product 'ROADSHIELD - Roadshield "RO" all years' information crawling completed
+[2024-04-17 13:01:56][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6496/roadshield-classic-roadshield-classic-roc-all-years?c=90005756* page
+[2024-04-17 13:02:01][Debug] Image 'mra-4025066144273_1' download completed
+[2024-04-17 13:02:05][Debug] Image 'mra-4025066144273_2' download completed
+[2024-04-17 13:02:09][Debug] Image 'mra-4025066144273_3' download completed
+[2024-04-17 13:02:13][Debug] Image 'mra-4025066144273_4' download completed
+[2024-04-17 13:02:17][Debug] Image 'mra-4025066144273_5' download completed
+[2024-04-17 13:02:20][Event] Product 'ROADSHIELD CLASSIC - Roadshield Classic "ROC" all years' information crawling completed
+[2024-04-17 13:02:24][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6995/speed-screen-for-naked-bike-speed-screen-for-naked-bikes-sps-all-years?c=90005756* page
+[2024-04-17 13:02:26][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:28][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:29][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:31][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:33][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:35][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:02:35][Error] Img size is under 50KB or cannot download image 'mra-4025066115235_1'
+[2024-04-17 13:02:37][Debug] Image 'mra-4025066115235_2' download completed
+[2024-04-17 13:02:40][Event] Product 'SPEED-SCREEN FOR NAKED BIKE - Speed-Screen for Naked-Bikes "SPS" all years' information crawling completed
+[2024-04-17 13:02:43][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6426/stealth-shield-stealth-shield-sh-all-years?c=90005756* page
+[2024-04-17 13:02:46][Debug] Image 'mra-4025066158881_1' download completed
+[2024-04-17 13:02:48][Debug] Image 'mra-4025066158881_2' download completed
+[2024-04-17 13:02:51][Debug] Image 'mra-4025066158881_3' download completed
+[2024-04-17 13:02:54][Event] Product 'STEALTH SHIELD - Stealth Shield "SH" all years' information crawling completed
+[2024-04-17 13:02:59][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7590/streamline-streamline-sl-all-years?c=90005756* page
+[2024-04-17 13:03:03][Debug] Image 'mra-4025066174775_1' download completed
+[2024-04-17 13:03:07][Debug] Image 'mra-4025066174775_2' download completed
+[2024-04-17 13:03:10][Debug] Image 'mra-4025066174775_3' download completed
+[2024-04-17 13:03:14][Debug] Image 'mra-4025066174775_4' download completed
+[2024-04-17 13:03:17][Debug] Image 'mra-4025066174775_5' download completed
+[2024-04-17 13:03:18][Event] Product 'STREAMLINE - Streamline "SL" all years' information crawling completed
+[2024-04-17 13:03:23][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6069/streetshield-streetshield-st-all-years?c=90005756* page
+[2024-04-17 13:03:26][Debug] Image 'mra-4025066944125_1' download completed
+[2024-04-17 13:03:28][Debug] Image 'mra-4025066944125_2' download completed
+[2024-04-17 13:03:31][Debug] Image 'mra-4025066944125_3' download completed
+[2024-04-17 13:03:33][Event] Product 'STREETSHIELD - Streetshield "ST" all years' information crawling completed
+[2024-04-17 13:03:40][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7230/style-shield-style-shield-sy-all-years?c=90005756* page
+[2024-04-17 13:03:45][Debug] Image 'mra-4025066164394_1' download completed
+[2024-04-17 13:03:49][Debug] Image 'mra-4025066164394_2' download completed
+[2024-04-17 13:03:52][Debug] Image 'mra-4025066164394_3' download completed
+[2024-04-17 13:03:56][Debug] Image 'mra-4025066164394_4' download completed
+[2024-04-17 13:04:00][Debug] Image 'mra-4025066164394_5' download completed
+[2024-04-17 13:04:04][Debug] Image 'mra-4025066164394_6' download completed
+[2024-04-17 13:04:04][Event] Product 'STYLE SHIELD - Style Shield "SY" all years' information crawling completed
+[2024-04-17 13:04:08][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5627/v-flow-x-creen-sport-typ-c-v-flow-x-creen-sport-c-all-years?c=90005756* page
+[2024-04-17 13:04:11][Debug] Image 'mra-4025066140398_1' download completed
+[2024-04-17 13:04:13][Debug] Image 'mra-4025066140398_2' download completed
+[2024-04-17 13:04:16][Debug] Image 'mra-4025066140398_3' download completed
+[2024-04-17 13:04:18][Event] Product 'V-FLOW X-CREEN SPORT TYP "C" - V-Flow X-Creen Sport "C" all years' information crawling completed
+[2024-04-17 13:04:23][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6123/v-flow-screen-typ-c-v-flow-screen-c-all-years?c=90005756* page
+[2024-04-17 13:04:26][Debug] Image 'mra-4025066140367_1' download completed
+[2024-04-17 13:04:28][Debug] Image 'mra-4025066140367_2' download completed
+[2024-04-17 13:04:30][Debug] Image 'mra-4025066140367_3' download completed
+[2024-04-17 13:04:33][Debug] Image 'mra-4025066140367_4' download completed
+[2024-04-17 13:04:36][Debug] Image 'mra-4025066140367_5' download completed
+[2024-04-17 13:04:38][Debug] Image 'mra-4025066140367_6' download completed
+[2024-04-17 13:04:41][Debug] Image 'mra-4025066140367_7' download completed
+[2024-04-17 13:04:44][Debug] Image 'mra-4025066140367_8' download completed
+[2024-04-17 13:04:46][Event] Product 'V-FLOW SCREEN TYP "C" - V-Flow Screen "C" all years' information crawling completed
+[2024-04-17 13:04:51][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5522/v-flow-screen-typ-z-v-flow-screen-z-all-years?c=90005756* page
+[2024-04-17 13:04:54][Debug] Image 'mra-4025066144242_1' download completed
+[2024-04-17 13:04:56][Debug] Image 'mra-4025066144242_2' download completed
+[2024-04-17 13:04:59][Debug] Image 'mra-4025066144242_3' download completed
+[2024-04-17 13:05:02][Debug] Image 'mra-4025066144242_4' download completed
+[2024-04-17 13:05:04][Event] Product 'V-FLOW SCREEN TYP "Z" - V-Flow Screen "Z" all years' information crawling completed
+[2024-04-17 13:05:10][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5505/v-flow-vario-touring-screen-typ-c-v-flow-vario-touring-screen-c-all-years?c=90005756* page
+[2024-04-17 13:05:13][Debug] Image 'mra-4025066140343_1' download completed
+[2024-04-17 13:05:15][Debug] Image 'mra-4025066140343_2' download completed
+[2024-04-17 13:05:18][Debug] Image 'mra-4025066140343_3' download completed
+[2024-04-17 13:05:20][Debug] Image 'mra-4025066140343_4' download completed
+[2024-04-17 13:05:24][Debug] Image 'mra-4025066140343_5' download completed
+[2024-04-17 13:05:28][Debug] Image 'mra-4025066140343_6' download completed
+[2024-04-17 13:05:31][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"C" - V-Flow Vario-Touring-Screen "C" all years' information crawling completed
+[2024-04-17 13:05:37][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5771/v-flow-vario-touring-screen-typ-z-v-flow-vario-touring-screen-z-all-years?c=90005756* page
+[2024-04-17 13:05:40][Debug] Image 'mra-4025066144228_1' download completed
+[2024-04-17 13:05:42][Debug] Image 'mra-4025066144228_2' download completed
+[2024-04-17 13:05:45][Debug] Image 'mra-4025066144228_3' download completed
+[2024-04-17 13:05:47][Debug] Image 'mra-4025066144228_4' download completed
+[2024-04-17 13:05:51][Debug] Image 'mra-4025066144228_5' download completed
+[2024-04-17 13:05:56][Debug] Image 'mra-4025066144228_6' download completed
+[2024-04-17 13:05:58][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"Z" - V-Flow Vario-Touring-Screen "Z" all years' information crawling completed
+[2024-04-17 13:06:03][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6108/v-flow-x-creen-sport-typ-z-v-flow-x-creen-sport-z-all-years?c=90005756* page
+[2024-04-17 13:06:05][Debug] Image 'mra-4025066144181_1' download completed
+[2024-04-17 13:06:08][Debug] Image 'mra-4025066144181_2' download completed
+[2024-04-17 13:06:10][Debug] Image 'mra-4025066144181_3' download completed
+[2024-04-17 13:06:13][Debug] Image 'mra-4025066144181_4' download completed
+[2024-04-17 13:06:15][Event] Product 'V-FLOW X-CREEN SPORT TYP "Z" - V-Flow X-Creen Sport "Z" all years' information crawling completed
+[2024-04-17 13:06:20][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5151/vario-screen-naked-bike-varioscreen-for-naked-bikes-vnb-all-years?c=90005756* page
+[2024-04-17 13:06:22][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:24][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:26][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:27][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:29][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:31][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:06:31][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_1'
+[2024-04-17 13:06:35][Debug] Image 'mra-4025066980246_2' download completed
+[2024-04-17 13:06:37][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:38][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:40][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:42][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:43][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:45][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:06:45][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_3'
+[2024-04-17 13:06:47][Event] Product 'VARIO-SCREEN NAKED BIKE - Varioscreen for Naked-Bikes "VNB" all years' information crawling completed
+[2024-04-17 13:06:55][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5938/vario-touring-screen-for-n.b.-hk-variotouringscreen-for-nakedbike-vtnb-all-years?c=90005756* page
+[2024-04-17 13:06:57][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:06:59][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:07:00][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:07:02][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:07:04][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:07:05][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:07:05][Error] Img size is under 50KB or cannot download image 'mra-4025066115181_1'
+[2024-04-17 13:07:08][Debug] Image 'mra-4025066115181_2' download completed
+[2024-04-17 13:07:10][Debug] Image 'mra-4025066115181_3' download completed
+[2024-04-17 13:07:14][Debug] Image 'mra-4025066115181_4' download completed
+[2024-04-17 13:07:18][Debug] Image 'mra-4025066115181_5' download completed
+[2024-04-17 13:07:22][Debug] Image 'mra-4025066115181_6' download completed
+[2024-04-17 13:07:25][Event] Product 'VARIO-TOURING-SCREEN FOR N.B. (HK) - VarioTouringScreen for NakedBike"VTNB" all years' information crawling completed
+[2024-04-17 13:07:25][Event] Current maker : YAMAHA, model : FZ 1, year : BJ 06-
+[2024-04-17 13:07:28][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/?p=1* page
+[2024-04-17 13:07:29][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/?p=2* page
+[2024-04-17 13:07:42][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7187/vsa-typ-a-30/19-cm-vario-touring-part-vsa.a-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:07:47][Debug] Image 'mra-4025066155040_1' download completed
+[2024-04-17 13:07:52][Debug] Image 'mra-4025066155040_2' download completed
+[2024-04-17 13:07:57][Debug] Image 'mra-4025066155040_3' download completed
+[2024-04-17 13:08:02][Debug] Image 'mra-4025066155040_4' download completed
+[2024-04-17 13:08:07][Debug] Image 'mra-4025066155040_5' download completed
+[2024-04-17 13:08:12][Debug] Image 'mra-4025066155040_6' download completed
+[2024-04-17 13:08:17][Debug] Image 'mra-4025066155040_7' download completed
+[2024-04-17 13:08:22][Debug] Image 'mra-4025066155040_8' download completed
+[2024-04-17 13:08:27][Debug] Image 'mra-4025066155040_9' download completed
+[2024-04-17 13:08:32][Debug] Image 'mra-4025066155040_10' download completed
+[2024-04-17 13:08:34][Debug] Image 'mra-4025066155040_11' download completed
+[2024-04-17 13:08:36][Debug] Image 'mra-4025066155040_12' download completed
+[2024-04-17 13:08:39][Event] Product 'VSA-TYP A (30/19 CM) - Vario-Touring-part "VSA.A" incl. clamps all years' information crawling completed
+[2024-04-17 13:08:41][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7189/vsa-typ-b-33/22-cm-vario-touring-part-vsa.b-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:08:47][Debug] Image 'mra-4025066155125_1' download completed
+[2024-04-17 13:08:52][Debug] Image 'mra-4025066155125_2' download completed
+[2024-04-17 13:08:57][Debug] Image 'mra-4025066155125_3' download completed
+[2024-04-17 13:09:02][Debug] Image 'mra-4025066155125_4' download completed
+[2024-04-17 13:09:08][Debug] Image 'mra-4025066155125_5' download completed
+[2024-04-17 13:09:12][Debug] Image 'mra-4025066155125_6' download completed
+[2024-04-17 13:09:17][Debug] Image 'mra-4025066155125_7' download completed
+[2024-04-17 13:09:22][Debug] Image 'mra-4025066155125_8' download completed
+[2024-04-17 13:09:27][Debug] Image 'mra-4025066155125_9' download completed
+[2024-04-17 13:09:33][Debug] Image 'mra-4025066155125_10' download completed
+[2024-04-17 13:09:35][Debug] Image 'mra-4025066155125_11' download completed
+[2024-04-17 13:09:37][Debug] Image 'mra-4025066155125_12' download completed
+[2024-04-17 13:09:40][Event] Product 'VSA-TYP B (33/22 CM) - Vario-Touring-part "VSA.B" incl. clamps all years' information crawling completed
+[2024-04-17 13:09:43][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7188/vsa-typ-c-30/18-cm-vario-touring-part-vsa-c-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:09:47][Debug] Image 'mra-4025066157051_1' download completed
+[2024-04-17 13:09:51][Debug] Image 'mra-4025066157051_2' download completed
+[2024-04-17 13:09:56][Debug] Image 'mra-4025066157051_3' download completed
+[2024-04-17 13:10:00][Debug] Image 'mra-4025066157051_4' download completed
+[2024-04-17 13:10:04][Debug] Image 'mra-4025066157051_5' download completed
+[2024-04-17 13:10:09][Debug] Image 'mra-4025066157051_6' download completed
+[2024-04-17 13:10:13][Debug] Image 'mra-4025066157051_7' download completed
+[2024-04-17 13:10:18][Debug] Image 'mra-4025066157051_8' download completed
+[2024-04-17 13:10:22][Debug] Image 'mra-4025066157051_9' download completed
+[2024-04-17 13:10:27][Debug] Image 'mra-4025066157051_10' download completed
+[2024-04-17 13:10:29][Debug] Image 'mra-4025066157051_11' download completed
+[2024-04-17 13:10:31][Debug] Image 'mra-4025066157051_12' download completed
+[2024-04-17 13:10:34][Event] Product 'VSA-TYP C (30/18 CM) - Vario-Touring-part "VSA-C" incl. clamps all years' information crawling completed
+[2024-04-17 13:10:37][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5844/x-creen-touring-aufsatz-x-creen-touring-part-xcta-all-years?c=90006521* page
+[2024-04-17 13:10:39][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:41][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:43][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:45][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:47][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:49][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:10:49][Error] Img size is under 50KB or cannot download image 'mra-4025066125043_1'
+[2024-04-17 13:10:51][Debug] Image 'mra-4025066125043_2' download completed
+[2024-04-17 13:10:54][Debug] Image 'mra-4025066125043_3' download completed
+[2024-04-17 13:10:58][Debug] Image 'mra-4025066125043_4' download completed
+[2024-04-17 13:11:02][Debug] Image 'mra-4025066125043_5' download completed
+[2024-04-17 13:11:06][Debug] Image 'mra-4025066125043_6' download completed
+[2024-04-17 13:11:09][Debug] Image 'mra-4025066125043_7' download completed
+[2024-04-17 13:11:30][Debug] Image 'mra-4025066125043_8' download completed
+[2024-04-17 13:11:34][Debug] Image 'mra-4025066125043_9' download completed
+[2024-04-17 13:11:38][Debug] Image 'mra-4025066125043_10' download completed
+[2024-04-17 13:11:40][Event] Product 'X-CREEN TOURING AUFSATZ - X-creen-touring-part "XCTA" all years' information crawling completed
+[2024-04-17 13:11:43][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5898/x-creen-sport-aufsatz-x-creen-sport-part-xcsa-all-years?c=90006521* page
+[2024-04-17 13:11:46][Debug] Image 'mra-4025066139361_1' download completed
+[2024-04-17 13:11:49][Debug] Image 'mra-4025066139361_2' download completed
+[2024-04-17 13:11:51][Debug] Image 'mra-4025066139361_3' download completed
+[2024-04-17 13:11:54][Event] Product 'X-CREEN-SPORT AUFSATZ - X-creen-sport-part "XCSA" all years' information crawling completed
+[2024-04-17 13:11:56][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6247/customshield-customshield-cu-all-years?c=90005756* page
+[2024-04-17 13:12:00][Debug] Image 'mra-4025066949977_1' download completed
+[2024-04-17 13:12:04][Debug] Image 'mra-4025066949977_2' download completed
+[2024-04-17 13:12:08][Debug] Image 'mra-4025066949977_3' download completed
+[2024-04-17 13:12:12][Debug] Image 'mra-4025066949977_4' download completed
+[2024-04-17 13:12:16][Debug] Image 'mra-4025066949977_5' download completed
+[2024-04-17 13:12:19][Event] Product 'CUSTOMSHIELD - Customshield "CU" all years' information crawling completed
+[2024-04-17 13:12:22][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5438/highwayshield-highwayshield-hi-all-years?c=90005756* page
+[2024-04-17 13:12:24][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:25][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:27][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:29][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:30][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:32][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:12:32][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_1'
+[2024-04-17 13:12:34][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:36][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:37][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:39][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:41][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:42][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:12:42][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_2'
+[2024-04-17 13:12:45][Event] Product 'HIGHWAYSHIELD - Highwayshield "HI" all years' information crawling completed
+[2024-04-17 13:12:48][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5647/racing-screen-for-naked-bike-racing-screen-for-naked-bikes-rnb-all-years?c=90005756* page
+[2024-04-17 13:12:51][Debug] Image 'mra-4025066120659_1' download completed
+[2024-04-17 13:12:54][Debug] Image 'mra-4025066120659_2' download completed
+[2024-04-17 13:12:56][Debug] Image 'mra-4025066120659_3' download completed
+[2024-04-17 13:12:58][Debug] Image 'mra-4025066120659_4' download completed
+[2024-04-17 13:13:00][Debug] Image 'mra-4025066120659_5' download completed
+[2024-04-17 13:13:02][Debug] Image 'mra-4025066120659_6' download completed
+[2024-04-17 13:13:04][Debug] Image 'mra-4025066120659_7' download completed
+[2024-04-17 13:13:06][Debug] Image 'mra-4025066120659_8' download completed
+[2024-04-17 13:13:09][Debug] Image 'mra-4025066120659_9' download completed
+[2024-04-17 13:13:11][Event] Product 'RACING-SCREEN FOR NAKED BIKE - Racing-Screen for Naked-Bikes "RNB" all years' information crawling completed
+[2024-04-17 13:13:14][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7114/roadshield-roadshield-ro-all-years?c=90005756* page
+[2024-04-17 13:13:16][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:18][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:19][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:21][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:23][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:24][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:13:24][Error] Img size is under 50KB or cannot download image 'mra-4025066946075_1'
+[2024-04-17 13:13:27][Debug] Image 'mra-4025066946075_2' download completed
+[2024-04-17 13:13:30][Debug] Image 'mra-4025066946075_3' download completed
+[2024-04-17 13:13:33][Debug] Image 'mra-4025066946075_4' download completed
+[2024-04-17 13:13:35][Event] Product 'ROADSHIELD - Roadshield "RO" all years' information crawling completed
+[2024-04-17 13:13:40][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6496/roadshield-classic-roadshield-classic-roc-all-years?c=90005756* page
+[2024-04-17 13:13:45][Debug] Image 'mra-4025066144273_1' download completed
+[2024-04-17 13:13:49][Debug] Image 'mra-4025066144273_2' download completed
+[2024-04-17 13:13:53][Debug] Image 'mra-4025066144273_3' download completed
+[2024-04-17 13:13:57][Debug] Image 'mra-4025066144273_4' download completed
+[2024-04-17 13:14:01][Debug] Image 'mra-4025066144273_5' download completed
+[2024-04-17 13:14:03][Event] Product 'ROADSHIELD CLASSIC - Roadshield Classic "ROC" all years' information crawling completed
+[2024-04-17 13:14:06][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6995/speed-screen-for-naked-bike-speed-screen-for-naked-bikes-sps-all-years?c=90005756* page
+[2024-04-17 13:14:08][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:10][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:12][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:13][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:15][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:17][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:14:17][Error] Img size is under 50KB or cannot download image 'mra-4025066115235_1'
+[2024-04-17 13:14:20][Debug] Image 'mra-4025066115235_2' download completed
+[2024-04-17 13:14:22][Event] Product 'SPEED-SCREEN FOR NAKED BIKE - Speed-Screen for Naked-Bikes "SPS" all years' information crawling completed
+[2024-04-17 13:14:24][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6426/stealth-shield-stealth-shield-sh-all-years?c=90005756* page
+[2024-04-17 13:14:27][Debug] Image 'mra-4025066158881_1' download completed
+[2024-04-17 13:14:29][Debug] Image 'mra-4025066158881_2' download completed
+[2024-04-17 13:14:32][Debug] Image 'mra-4025066158881_3' download completed
+[2024-04-17 13:14:35][Event] Product 'STEALTH SHIELD - Stealth Shield "SH" all years' information crawling completed
+[2024-04-17 13:14:38][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7590/streamline-streamline-sl-all-years?c=90005756* page
+[2024-04-17 13:14:42][Debug] Image 'mra-4025066174775_1' download completed
+[2024-04-17 13:14:45][Debug] Image 'mra-4025066174775_2' download completed
+[2024-04-17 13:14:49][Debug] Image 'mra-4025066174775_3' download completed
+[2024-04-17 13:14:53][Debug] Image 'mra-4025066174775_4' download completed
+[2024-04-17 13:14:56][Debug] Image 'mra-4025066174775_5' download completed
+[2024-04-17 13:14:56][Event] Product 'STREAMLINE - Streamline "SL" all years' information crawling completed
+[2024-04-17 13:14:58][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6069/streetshield-streetshield-st-all-years?c=90005756* page
+[2024-04-17 13:15:01][Debug] Image 'mra-4025066944125_1' download completed
+[2024-04-17 13:15:04][Debug] Image 'mra-4025066944125_2' download completed
+[2024-04-17 13:15:06][Debug] Image 'mra-4025066944125_3' download completed
+[2024-04-17 13:15:09][Event] Product 'STREETSHIELD - Streetshield "ST" all years' information crawling completed
+[2024-04-17 13:15:12][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7230/style-shield-style-shield-sy-all-years?c=90005756* page
+[2024-04-17 13:15:16][Debug] Image 'mra-4025066164394_1' download completed
+[2024-04-17 13:15:20][Debug] Image 'mra-4025066164394_2' download completed
+[2024-04-17 13:15:23][Debug] Image 'mra-4025066164394_3' download completed
+[2024-04-17 13:15:27][Debug] Image 'mra-4025066164394_4' download completed
+[2024-04-17 13:15:31][Debug] Image 'mra-4025066164394_5' download completed
+[2024-04-17 13:15:35][Debug] Image 'mra-4025066164394_6' download completed
+[2024-04-17 13:15:35][Event] Product 'STYLE SHIELD - Style Shield "SY" all years' information crawling completed
+[2024-04-17 13:15:38][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5627/v-flow-x-creen-sport-typ-c-v-flow-x-creen-sport-c-all-years?c=90005756* page
+[2024-04-17 13:15:41][Debug] Image 'mra-4025066140398_1' download completed
+[2024-04-17 13:15:43][Debug] Image 'mra-4025066140398_2' download completed
+[2024-04-17 13:15:45][Debug] Image 'mra-4025066140398_3' download completed
+[2024-04-17 13:15:48][Event] Product 'V-FLOW X-CREEN SPORT TYP "C" - V-Flow X-Creen Sport "C" all years' information crawling completed
+[2024-04-17 13:15:51][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6123/v-flow-screen-typ-c-v-flow-screen-c-all-years?c=90005756* page
+[2024-04-17 13:15:53][Debug] Image 'mra-4025066140367_1' download completed
+[2024-04-17 13:15:56][Debug] Image 'mra-4025066140367_2' download completed
+[2024-04-17 13:15:58][Debug] Image 'mra-4025066140367_3' download completed
+[2024-04-17 13:16:01][Debug] Image 'mra-4025066140367_4' download completed
+[2024-04-17 13:16:04][Debug] Image 'mra-4025066140367_5' download completed
+[2024-04-17 13:16:06][Debug] Image 'mra-4025066140367_6' download completed
+[2024-04-17 13:16:09][Debug] Image 'mra-4025066140367_7' download completed
+[2024-04-17 13:16:12][Debug] Image 'mra-4025066140367_8' download completed
+[2024-04-17 13:16:14][Event] Product 'V-FLOW SCREEN TYP "C" - V-Flow Screen "C" all years' information crawling completed
+[2024-04-17 13:16:17][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5522/v-flow-screen-typ-z-v-flow-screen-z-all-years?c=90005756* page
+[2024-04-17 13:16:20][Debug] Image 'mra-4025066144242_1' download completed
+[2024-04-17 13:16:22][Debug] Image 'mra-4025066144242_2' download completed
+[2024-04-17 13:16:25][Debug] Image 'mra-4025066144242_3' download completed
+[2024-04-17 13:16:27][Debug] Image 'mra-4025066144242_4' download completed
+[2024-04-17 13:16:30][Event] Product 'V-FLOW SCREEN TYP "Z" - V-Flow Screen "Z" all years' information crawling completed
+[2024-04-17 13:16:32][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5505/v-flow-vario-touring-screen-typ-c-v-flow-vario-touring-screen-c-all-years?c=90005756* page
+[2024-04-17 13:16:35][Debug] Image 'mra-4025066140343_1' download completed
+[2024-04-17 13:16:37][Debug] Image 'mra-4025066140343_2' download completed
+[2024-04-17 13:16:39][Debug] Image 'mra-4025066140343_3' download completed
+[2024-04-17 13:16:42][Debug] Image 'mra-4025066140343_4' download completed
+[2024-04-17 13:16:46][Debug] Image 'mra-4025066140343_5' download completed
+[2024-04-17 13:16:50][Debug] Image 'mra-4025066140343_6' download completed
+[2024-04-17 13:16:53][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"C" - V-Flow Vario-Touring-Screen "C" all years' information crawling completed
+[2024-04-17 13:16:55][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5771/v-flow-vario-touring-screen-typ-z-v-flow-vario-touring-screen-z-all-years?c=90005756* page
+[2024-04-17 13:16:58][Debug] Image 'mra-4025066144228_1' download completed
+[2024-04-17 13:17:00][Debug] Image 'mra-4025066144228_2' download completed
+[2024-04-17 13:17:03][Debug] Image 'mra-4025066144228_3' download completed
+[2024-04-17 13:17:06][Debug] Image 'mra-4025066144228_4' download completed
+[2024-04-17 13:17:10][Debug] Image 'mra-4025066144228_5' download completed
+[2024-04-17 13:17:14][Debug] Image 'mra-4025066144228_6' download completed
+[2024-04-17 13:17:16][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"Z" - V-Flow Vario-Touring-Screen "Z" all years' information crawling completed
+[2024-04-17 13:17:19][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6108/v-flow-x-creen-sport-typ-z-v-flow-x-creen-sport-z-all-years?c=90005756* page
+[2024-04-17 13:17:21][Debug] Image 'mra-4025066144181_1' download completed
+[2024-04-17 13:17:24][Debug] Image 'mra-4025066144181_2' download completed
+[2024-04-17 13:17:26][Debug] Image 'mra-4025066144181_3' download completed
+[2024-04-17 13:17:29][Debug] Image 'mra-4025066144181_4' download completed
+[2024-04-17 13:17:31][Event] Product 'V-FLOW X-CREEN SPORT TYP "Z" - V-Flow X-Creen Sport "Z" all years' information crawling completed
+[2024-04-17 13:17:34][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5151/vario-screen-naked-bike-varioscreen-for-naked-bikes-vnb-all-years?c=90005756* page
+[2024-04-17 13:17:36][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:38][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:39][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:41][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:43][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:44][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:17:44][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_1'
+[2024-04-17 13:17:49][Debug] Image 'mra-4025066980246_2' download completed
+[2024-04-17 13:17:50][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:52][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:54][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:55][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:57][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:59][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:17:59][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_3'
+[2024-04-17 13:18:01][Event] Product 'VARIO-SCREEN NAKED BIKE - Varioscreen for Naked-Bikes "VNB" all years' information crawling completed
+[2024-04-17 13:18:04][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5938/vario-touring-screen-for-n.b.-hk-variotouringscreen-for-nakedbike-vtnb-all-years?c=90005756* page
+[2024-04-17 13:18:06][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:08][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:09][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:11][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:13][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:14][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:18:14][Error] Img size is under 50KB or cannot download image 'mra-4025066115181_1'
+[2024-04-17 13:18:17][Debug] Image 'mra-4025066115181_2' download completed
+[2024-04-17 13:18:19][Debug] Image 'mra-4025066115181_3' download completed
+[2024-04-17 13:18:23][Debug] Image 'mra-4025066115181_4' download completed
+[2024-04-17 13:18:27][Debug] Image 'mra-4025066115181_5' download completed
+[2024-04-17 13:18:31][Debug] Image 'mra-4025066115181_6' download completed
+[2024-04-17 13:18:34][Event] Product 'VARIO-TOURING-SCREEN FOR N.B. (HK) - VarioTouringScreen for NakedBike"VTNB" all years' information crawling completed
+[2024-04-17 13:18:46][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/6122/fz1-racing-windscreen-nrm-2006?c=90005757* page
+[2024-04-17 13:18:51][Debug] Image 'mra-4025066149100_1' download completed
+[2024-04-17 13:18:55][Debug] Image 'mra-4025066149100_2' download completed
+[2024-04-17 13:18:59][Debug] Image 'mra-4025066149100_3' download completed
+[2024-04-17 13:19:03][Debug] Image 'mra-4025066149100_4' download completed
+[2024-04-17 13:19:07][Debug] Image 'mra-4025066149100_5' download completed
+[2024-04-17 13:19:10][Debug] Image 'mra-4025066149100_6' download completed
+[2024-04-17 13:19:13][Debug] Image 'mra-4025066149100_7' download completed
+[2024-04-17 13:19:16][Debug] Image 'mra-4025066149100_8' download completed
+[2024-04-17 13:19:19][Debug] Image 'mra-4025066149100_9' download completed
+[2024-04-17 13:19:21][Debug] Image 'mra-4025066149100_10' download completed
+[2024-04-17 13:19:24][Debug] Image 'mra-4025066149100_11' download completed
+[2024-04-17 13:19:27][Debug] Image 'mra-4025066149100_12' download completed
+[2024-04-17 13:19:30][Event] Product 'FZ1 - Racing windscreen "NRM" 2006-' information crawling completed
+[2024-04-17 13:19:38][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/6072/fz1-touring-windshield-ntm-2006?c=90005757* page
+[2024-04-17 13:19:41][Debug] Image 'mra-4025066149131_1' download completed
+[2024-04-17 13:19:44][Debug] Image 'mra-4025066149131_2' download completed
+[2024-04-17 13:19:47][Debug] Image 'mra-4025066149131_3' download completed
+[2024-04-17 13:19:51][Debug] Image 'mra-4025066149131_4' download completed
+[2024-04-17 13:19:55][Debug] Image 'mra-4025066149131_5' download completed
+[2024-04-17 13:19:59][Debug] Image 'mra-4025066149131_6' download completed
+[2024-04-17 13:20:02][Debug] Image 'mra-4025066149131_7' download completed
+[2024-04-17 13:20:06][Event] Product 'FZ1 - Touring windshield "NTM" 2006-' information crawling completed
+[2024-04-17 13:20:06][Event] Current maker : YAMAHA, model : FZ 1 Fazer, year : BJ 06-
+[2024-04-17 13:20:10][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/?p=1* page
+[2024-04-17 13:20:11][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/?p=2* page
+[2024-04-17 13:20:24][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7187/vsa-typ-a-30/19-cm-vario-touring-part-vsa.a-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:20:29][Debug] Image 'mra-4025066155040_1' download completed
+[2024-04-17 13:20:35][Debug] Image 'mra-4025066155040_2' download completed
+[2024-04-17 13:20:40][Debug] Image 'mra-4025066155040_3' download completed
+[2024-04-17 13:20:44][Debug] Image 'mra-4025066155040_4' download completed
+[2024-04-17 13:20:49][Debug] Image 'mra-4025066155040_5' download completed
+[2024-04-17 13:20:54][Debug] Image 'mra-4025066155040_6' download completed
+[2024-04-17 13:20:59][Debug] Image 'mra-4025066155040_7' download completed
+[2024-04-17 13:21:04][Debug] Image 'mra-4025066155040_8' download completed
+[2024-04-17 13:21:19][Debug] Image 'mra-4025066155040_9' download completed
+[2024-04-17 13:21:24][Debug] Image 'mra-4025066155040_10' download completed
+[2024-04-17 13:21:27][Debug] Image 'mra-4025066155040_11' download completed
+[2024-04-17 13:21:29][Debug] Image 'mra-4025066155040_12' download completed
+[2024-04-17 13:21:31][Event] Product 'VSA-TYP A (30/19 CM) - Vario-Touring-part "VSA.A" incl. clamps all years' information crawling completed
+[2024-04-17 13:21:34][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7189/vsa-typ-b-33/22-cm-vario-touring-part-vsa.b-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:21:40][Debug] Image 'mra-4025066155125_1' download completed
+[2024-04-17 13:21:45][Debug] Image 'mra-4025066155125_2' download completed
+[2024-04-17 13:21:50][Debug] Image 'mra-4025066155125_3' download completed
+[2024-04-17 13:21:55][Debug] Image 'mra-4025066155125_4' download completed
+[2024-04-17 13:22:01][Debug] Image 'mra-4025066155125_5' download completed
+[2024-04-17 13:22:06][Debug] Image 'mra-4025066155125_6' download completed
+[2024-04-17 13:22:11][Debug] Image 'mra-4025066155125_7' download completed
+[2024-04-17 13:22:16][Debug] Image 'mra-4025066155125_8' download completed
+[2024-04-17 13:22:21][Debug] Image 'mra-4025066155125_9' download completed
+[2024-04-17 13:22:26][Debug] Image 'mra-4025066155125_10' download completed
+[2024-04-17 13:22:28][Debug] Image 'mra-4025066155125_11' download completed
+[2024-04-17 13:22:31][Debug] Image 'mra-4025066155125_12' download completed
+[2024-04-17 13:22:33][Event] Product 'VSA-TYP B (33/22 CM) - Vario-Touring-part "VSA.B" incl. clamps all years' information crawling completed
+[2024-04-17 13:22:36][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/7188/vsa-typ-c-30/18-cm-vario-touring-part-vsa-c-incl.-clamps-all-years?c=90006521* page
+[2024-04-17 13:22:40][Debug] Image 'mra-4025066157051_1' download completed
+[2024-04-17 13:22:46][Debug] Image 'mra-4025066157051_2' download completed
+[2024-04-17 13:22:50][Debug] Image 'mra-4025066157051_3' download completed
+[2024-04-17 13:22:55][Debug] Image 'mra-4025066157051_4' download completed
+[2024-04-17 13:22:59][Debug] Image 'mra-4025066157051_5' download completed
+[2024-04-17 13:23:03][Debug] Image 'mra-4025066157051_6' download completed
+[2024-04-17 13:23:08][Debug] Image 'mra-4025066157051_7' download completed
+[2024-04-17 13:23:12][Debug] Image 'mra-4025066157051_8' download completed
+[2024-04-17 13:23:17][Debug] Image 'mra-4025066157051_9' download completed
+[2024-04-17 13:23:21][Debug] Image 'mra-4025066157051_10' download completed
+[2024-04-17 13:23:24][Debug] Image 'mra-4025066157051_11' download completed
+[2024-04-17 13:23:26][Debug] Image 'mra-4025066157051_12' download completed
+[2024-04-17 13:23:28][Event] Product 'VSA-TYP C (30/18 CM) - Vario-Touring-part "VSA-C" incl. clamps all years' information crawling completed
+[2024-04-17 13:23:31][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5844/x-creen-touring-aufsatz-x-creen-touring-part-xcta-all-years?c=90006521* page
+[2024-04-17 13:23:33][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:35][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:37][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:39][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:41][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:44][Debug] Image 'mra-4025066125043_1' download failed
+[2024-04-17 13:23:44][Error] Img size is under 50KB or cannot download image 'mra-4025066125043_1'
+[2024-04-17 13:23:46][Debug] Image 'mra-4025066125043_2' download completed
+[2024-04-17 13:23:48][Debug] Image 'mra-4025066125043_3' download completed
+[2024-04-17 13:23:52][Debug] Image 'mra-4025066125043_4' download completed
+[2024-04-17 13:23:56][Debug] Image 'mra-4025066125043_5' download completed
+[2024-04-17 13:24:00][Debug] Image 'mra-4025066125043_6' download completed
+[2024-04-17 13:24:04][Debug] Image 'mra-4025066125043_7' download completed
+[2024-04-17 13:24:08][Debug] Image 'mra-4025066125043_8' download completed
+[2024-04-17 13:24:11][Debug] Image 'mra-4025066125043_9' download completed
+[2024-04-17 13:24:15][Debug] Image 'mra-4025066125043_10' download completed
+[2024-04-17 13:24:18][Event] Product 'X-CREEN TOURING AUFSATZ - X-creen-touring-part "XCTA" all years' information crawling completed
+[2024-04-17 13:24:21][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/atlantic-125200250300/bj-03/5898/x-creen-sport-aufsatz-x-creen-sport-part-xcsa-all-years?c=90006521* page
+[2024-04-17 13:24:24][Debug] Image 'mra-4025066139361_1' download completed
+[2024-04-17 13:24:26][Debug] Image 'mra-4025066139361_2' download completed
+[2024-04-17 13:24:29][Debug] Image 'mra-4025066139361_3' download completed
+[2024-04-17 13:24:32][Event] Product 'X-CREEN-SPORT AUFSATZ - X-creen-sport-part "XCSA" all years' information crawling completed
+[2024-04-17 13:24:34][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6247/customshield-customshield-cu-all-years?c=90005756* page
+[2024-04-17 13:24:38][Debug] Image 'mra-4025066949977_1' download completed
+[2024-04-17 13:24:42][Debug] Image 'mra-4025066949977_2' download completed
+[2024-04-17 13:24:46][Debug] Image 'mra-4025066949977_3' download completed
+[2024-04-17 13:24:50][Debug] Image 'mra-4025066949977_4' download completed
+[2024-04-17 13:24:54][Debug] Image 'mra-4025066949977_5' download completed
+[2024-04-17 13:24:58][Event] Product 'CUSTOMSHIELD - Customshield "CU" all years' information crawling completed
+[2024-04-17 13:25:01][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5438/highwayshield-highwayshield-hi-all-years?c=90005756* page
+[2024-04-17 13:25:03][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:04][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:06][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:08][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:09][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:11][Debug] Image 'mra-4025066948024_1' download failed
+[2024-04-17 13:25:11][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_1'
+[2024-04-17 13:25:13][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:15][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:16][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:18][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:20][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:21][Debug] Image 'mra-4025066948024_2' download failed
+[2024-04-17 13:25:21][Error] Img size is under 50KB or cannot download image 'mra-4025066948024_2'
+[2024-04-17 13:25:24][Event] Product 'HIGHWAYSHIELD - Highwayshield "HI" all years' information crawling completed
+[2024-04-17 13:25:27][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5647/racing-screen-for-naked-bike-racing-screen-for-naked-bikes-rnb-all-years?c=90005756* page
+[2024-04-17 13:25:29][Debug] Image 'mra-4025066120659_1' download completed
+[2024-04-17 13:25:32][Debug] Image 'mra-4025066120659_2' download completed
+[2024-04-17 13:25:34][Debug] Image 'mra-4025066120659_3' download completed
+[2024-04-17 13:25:37][Debug] Image 'mra-4025066120659_4' download completed
+[2024-04-17 13:25:39][Debug] Image 'mra-4025066120659_5' download completed
+[2024-04-17 13:25:41][Debug] Image 'mra-4025066120659_6' download completed
+[2024-04-17 13:25:43][Debug] Image 'mra-4025066120659_7' download completed
+[2024-04-17 13:25:45][Debug] Image 'mra-4025066120659_8' download completed
+[2024-04-17 13:25:48][Debug] Image 'mra-4025066120659_9' download completed
+[2024-04-17 13:25:50][Event] Product 'RACING-SCREEN FOR NAKED BIKE - Racing-Screen for Naked-Bikes "RNB" all years' information crawling completed
+[2024-04-17 13:25:53][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7114/roadshield-roadshield-ro-all-years?c=90005756* page
+[2024-04-17 13:25:55][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:25:57][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:25:58][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:26:00][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:26:02][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:26:03][Debug] Image 'mra-4025066946075_1' download failed
+[2024-04-17 13:26:03][Error] Img size is under 50KB or cannot download image 'mra-4025066946075_1'
+[2024-04-17 13:26:06][Debug] Image 'mra-4025066946075_2' download completed
+[2024-04-17 13:26:09][Debug] Image 'mra-4025066946075_3' download completed
+[2024-04-17 13:26:12][Debug] Image 'mra-4025066946075_4' download completed
+[2024-04-17 13:26:14][Event] Product 'ROADSHIELD - Roadshield "RO" all years' information crawling completed
+[2024-04-17 13:26:19][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6496/roadshield-classic-roadshield-classic-roc-all-years?c=90005756* page
+[2024-04-17 13:26:23][Debug] Image 'mra-4025066144273_1' download completed
+[2024-04-17 13:26:28][Debug] Image 'mra-4025066144273_2' download completed
+[2024-04-17 13:26:31][Debug] Image 'mra-4025066144273_3' download completed
+[2024-04-17 13:26:36][Debug] Image 'mra-4025066144273_4' download completed
+[2024-04-17 13:26:39][Debug] Image 'mra-4025066144273_5' download completed
+[2024-04-17 13:26:42][Event] Product 'ROADSHIELD CLASSIC - Roadshield Classic "ROC" all years' information crawling completed
+[2024-04-17 13:26:45][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6995/speed-screen-for-naked-bike-speed-screen-for-naked-bikes-sps-all-years?c=90005756* page
+[2024-04-17 13:26:47][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:49][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:50][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:52][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:54][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:55][Debug] Image 'mra-4025066115235_1' download failed
+[2024-04-17 13:26:55][Error] Img size is under 50KB or cannot download image 'mra-4025066115235_1'
+[2024-04-17 13:26:58][Debug] Image 'mra-4025066115235_2' download completed
+[2024-04-17 13:27:01][Event] Product 'SPEED-SCREEN FOR NAKED BIKE - Speed-Screen for Naked-Bikes "SPS" all years' information crawling completed
+[2024-04-17 13:27:03][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6426/stealth-shield-stealth-shield-sh-all-years?c=90005756* page
+[2024-04-17 13:27:05][Debug] Image 'mra-4025066158881_1' download completed
+[2024-04-17 13:27:08][Debug] Image 'mra-4025066158881_2' download completed
+[2024-04-17 13:27:10][Debug] Image 'mra-4025066158881_3' download completed
+[2024-04-17 13:27:15][Event] Product 'STEALTH SHIELD - Stealth Shield "SH" all years' information crawling completed
+[2024-04-17 13:27:18][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7590/streamline-streamline-sl-all-years?c=90005756* page
+[2024-04-17 13:27:22][Debug] Image 'mra-4025066174775_1' download completed
+[2024-04-17 13:27:25][Debug] Image 'mra-4025066174775_2' download completed
+[2024-04-17 13:27:29][Debug] Image 'mra-4025066174775_3' download completed
+[2024-04-17 13:27:33][Debug] Image 'mra-4025066174775_4' download completed
+[2024-04-17 13:27:36][Debug] Image 'mra-4025066174775_5' download completed
+[2024-04-17 13:27:36][Event] Product 'STREAMLINE - Streamline "SL" all years' information crawling completed
+[2024-04-17 13:27:39][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6069/streetshield-streetshield-st-all-years?c=90005756* page
+[2024-04-17 13:27:41][Debug] Image 'mra-4025066944125_1' download completed
+[2024-04-17 13:27:44][Debug] Image 'mra-4025066944125_2' download completed
+[2024-04-17 13:27:47][Debug] Image 'mra-4025066944125_3' download completed
+[2024-04-17 13:27:49][Event] Product 'STREETSHIELD - Streetshield "ST" all years' information crawling completed
+[2024-04-17 13:27:52][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/7230/style-shield-style-shield-sy-all-years?c=90005756* page
+[2024-04-17 13:27:56][Debug] Image 'mra-4025066164394_1' download completed
+[2024-04-17 13:28:00][Debug] Image 'mra-4025066164394_2' download completed
+[2024-04-17 13:28:04][Debug] Image 'mra-4025066164394_3' download completed
+[2024-04-17 13:28:07][Debug] Image 'mra-4025066164394_4' download completed
+[2024-04-17 13:28:11][Debug] Image 'mra-4025066164394_5' download completed
+[2024-04-17 13:28:15][Debug] Image 'mra-4025066164394_6' download completed
+[2024-04-17 13:28:15][Event] Product 'STYLE SHIELD - Style Shield "SY" all years' information crawling completed
+[2024-04-17 13:28:18][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5627/v-flow-x-creen-sport-typ-c-v-flow-x-creen-sport-c-all-years?c=90005756* page
+[2024-04-17 13:28:21][Debug] Image 'mra-4025066140398_1' download completed
+[2024-04-17 13:28:23][Debug] Image 'mra-4025066140398_2' download completed
+[2024-04-17 13:28:26][Debug] Image 'mra-4025066140398_3' download completed
+[2024-04-17 13:28:28][Event] Product 'V-FLOW X-CREEN SPORT TYP "C" - V-Flow X-Creen Sport "C" all years' information crawling completed
+[2024-04-17 13:28:30][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6123/v-flow-screen-typ-c-v-flow-screen-c-all-years?c=90005756* page
+[2024-04-17 13:28:33][Debug] Image 'mra-4025066140367_1' download completed
+[2024-04-17 13:28:35][Debug] Image 'mra-4025066140367_2' download completed
+[2024-04-17 13:28:38][Debug] Image 'mra-4025066140367_3' download completed
+[2024-04-17 13:28:40][Debug] Image 'mra-4025066140367_4' download completed
+[2024-04-17 13:28:43][Debug] Image 'mra-4025066140367_5' download completed
+[2024-04-17 13:28:46][Debug] Image 'mra-4025066140367_6' download completed
+[2024-04-17 13:28:48][Debug] Image 'mra-4025066140367_7' download completed
+[2024-04-17 13:28:51][Debug] Image 'mra-4025066140367_8' download completed
+[2024-04-17 13:28:54][Event] Product 'V-FLOW SCREEN TYP "C" - V-Flow Screen "C" all years' information crawling completed
+[2024-04-17 13:28:56][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5522/v-flow-screen-typ-z-v-flow-screen-z-all-years?c=90005756* page
+[2024-04-17 13:28:59][Debug] Image 'mra-4025066144242_1' download completed
+[2024-04-17 13:29:01][Debug] Image 'mra-4025066144242_2' download completed
+[2024-04-17 13:29:04][Debug] Image 'mra-4025066144242_3' download completed
+[2024-04-17 13:29:07][Debug] Image 'mra-4025066144242_4' download completed
+[2024-04-17 13:29:09][Event] Product 'V-FLOW SCREEN TYP "Z" - V-Flow Screen "Z" all years' information crawling completed
+[2024-04-17 13:29:11][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5505/v-flow-vario-touring-screen-typ-c-v-flow-vario-touring-screen-c-all-years?c=90005756* page
+[2024-04-17 13:29:14][Debug] Image 'mra-4025066140343_1' download completed
+[2024-04-17 13:29:16][Debug] Image 'mra-4025066140343_2' download completed
+[2024-04-17 13:29:19][Debug] Image 'mra-4025066140343_3' download completed
+[2024-04-17 13:29:21][Debug] Image 'mra-4025066140343_4' download completed
+[2024-04-17 13:29:25][Debug] Image 'mra-4025066140343_5' download completed
+[2024-04-17 13:29:30][Debug] Image 'mra-4025066140343_6' download completed
+[2024-04-17 13:29:32][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"C" - V-Flow Vario-Touring-Screen "C" all years' information crawling completed
+[2024-04-17 13:29:35][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5771/v-flow-vario-touring-screen-typ-z-v-flow-vario-touring-screen-z-all-years?c=90005756* page
+[2024-04-17 13:29:38][Debug] Image 'mra-4025066144228_1' download completed
+[2024-04-17 13:29:40][Debug] Image 'mra-4025066144228_2' download completed
+[2024-04-17 13:29:42][Debug] Image 'mra-4025066144228_3' download completed
+[2024-04-17 13:29:45][Debug] Image 'mra-4025066144228_4' download completed
+[2024-04-17 13:29:49][Debug] Image 'mra-4025066144228_5' download completed
+[2024-04-17 13:29:53][Debug] Image 'mra-4025066144228_6' download completed
+[2024-04-17 13:29:56][Event] Product 'V-FLOW VARIO-TOURING-SCREEN TYP"Z" - V-Flow Vario-Touring-Screen "Z" all years' information crawling completed
+[2024-04-17 13:29:58][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/6108/v-flow-x-creen-sport-typ-z-v-flow-x-creen-sport-z-all-years?c=90005756* page
+[2024-04-17 13:30:01][Debug] Image 'mra-4025066144181_1' download completed
+[2024-04-17 13:30:03][Debug] Image 'mra-4025066144181_2' download completed
+[2024-04-17 13:30:05][Debug] Image 'mra-4025066144181_3' download completed
+[2024-04-17 13:30:08][Debug] Image 'mra-4025066144181_4' download completed
+[2024-04-17 13:30:11][Event] Product 'V-FLOW X-CREEN SPORT TYP "Z" - V-Flow X-Creen Sport "Z" all years' information crawling completed
+[2024-04-17 13:30:14][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5151/vario-screen-naked-bike-varioscreen-for-naked-bikes-vnb-all-years?c=90005756* page
+[2024-04-17 13:30:15][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:17][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:19][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:20][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:22][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:24][Debug] Image 'mra-4025066980246_1' download failed
+[2024-04-17 13:30:24][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_1'
+[2024-04-17 13:30:28][Debug] Image 'mra-4025066980246_2' download completed
+[2024-04-17 13:30:30][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:31][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:33][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:35][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:37][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:38][Debug] Image 'mra-4025066980246_3' download failed
+[2024-04-17 13:30:38][Error] Img size is under 50KB or cannot download image 'mra-4025066980246_3'
+[2024-04-17 13:30:41][Event] Product 'VARIO-SCREEN NAKED BIKE - Varioscreen for Naked-Bikes "VNB" all years' information crawling completed
+[2024-04-17 13:30:43][Debug] Get *https://www.mrashop.de/com/model-based-products/aprilia/125-classic/alle-bj/5938/vario-touring-screen-for-n.b.-hk-variotouringscreen-for-nakedbike-vtnb-all-years?c=90005756* page
+[2024-04-17 13:30:45][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:47][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:49][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:50][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:52][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:54][Debug] Image 'mra-4025066115181_1' download failed
+[2024-04-17 13:30:54][Error] Img size is under 50KB or cannot download image 'mra-4025066115181_1'
+[2024-04-17 13:30:56][Debug] Image 'mra-4025066115181_2' download completed
+[2024-04-17 13:30:59][Debug] Image 'mra-4025066115181_3' download completed
+[2024-04-17 13:31:03][Debug] Image 'mra-4025066115181_4' download completed
+[2024-04-17 13:31:07][Debug] Image 'mra-4025066115181_5' download completed
+[2024-04-17 13:31:11][Debug] Image 'mra-4025066115181_6' download completed
+[2024-04-17 13:31:13][Event] Product 'VARIO-TOURING-SCREEN FOR N.B. (HK) - VarioTouringScreen for NakedBike"VTNB" all years' information crawling completed
+[2024-04-17 13:31:16][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/6122/fz1-racing-windscreen-nrm-2006?c=90005757* page
+[2024-04-17 13:31:21][Debug] Image 'mra-4025066149100_1' download completed
+[2024-04-17 13:31:25][Debug] Image 'mra-4025066149100_2' download completed
+[2024-04-17 13:31:29][Debug] Image 'mra-4025066149100_3' download completed
+[2024-04-17 13:31:33][Debug] Image 'mra-4025066149100_4' download completed
+[2024-04-17 13:31:37][Debug] Image 'mra-4025066149100_5' download completed
+[2024-04-17 13:31:40][Debug] Image 'mra-4025066149100_6' download completed
+[2024-04-17 13:31:43][Debug] Image 'mra-4025066149100_7' download completed
+[2024-04-17 13:31:46][Debug] Image 'mra-4025066149100_8' download completed
+[2024-04-17 13:31:49][Debug] Image 'mra-4025066149100_9' download completed
+[2024-04-17 13:31:51][Debug] Image 'mra-4025066149100_10' download completed
+[2024-04-17 13:31:54][Debug] Image 'mra-4025066149100_11' download completed
+[2024-04-17 13:31:57][Debug] Image 'mra-4025066149100_12' download completed
+[2024-04-17 13:32:00][Event] Product 'FZ1 - Racing windscreen "NRM" 2006-' information crawling completed
+[2024-04-17 13:32:02][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1/bj-06/6072/fz1-touring-windshield-ntm-2006?c=90005757* page
+[2024-04-17 13:32:05][Debug] Image 'mra-4025066149131_1' download completed
+[2024-04-17 13:32:09][Debug] Image 'mra-4025066149131_2' download completed
+[2024-04-17 13:32:11][Debug] Image 'mra-4025066149131_3' download completed
+[2024-04-17 13:32:15][Debug] Image 'mra-4025066149131_4' download completed
+[2024-04-17 13:32:19][Debug] Image 'mra-4025066149131_5' download completed
+[2024-04-17 13:32:23][Debug] Image 'mra-4025066149131_6' download completed
+[2024-04-17 13:32:27][Debug] Image 'mra-4025066149131_7' download completed
+[2024-04-17 13:32:29][Event] Product 'FZ1 - Touring windshield "NTM" 2006-' information crawling completed
+[2024-04-17 13:32:32][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/6718/fz1-fazer-originally-shaped-windshield-o-2006?c=90005758* page
+[2024-04-17 13:32:35][Debug] Image 'mra-4025066107452_1' download completed
+[2024-04-17 13:32:38][Event] Product 'FZ1 FAZER - Originally-shaped windshield "O" 2006-' information crawling completed
+[2024-04-17 13:32:41][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/6927/fz1-fazer-racing-windscreen-r-2006?c=90005758* page
+[2024-04-17 13:32:43][Debug] Image 'mra-4025066111299_1' download completed
+[2024-04-17 13:32:48][Event] Product 'FZ1 FAZER - Racing windscreen "R" 2006-' information crawling completed
+[2024-04-17 13:33:00][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/7106/fz1-fazer-touring-windshield-t-2006?c=90005758* page
+[2024-04-17 13:33:04][Debug] Image 'mra-4025066107575_1' download completed
+[2024-04-17 13:33:07][Debug] Image 'mra-4025066107575_2' download completed
+[2024-04-17 13:33:10][Debug] Image 'mra-4025066107575_3' download completed
+[2024-04-17 13:33:14][Debug] Image 'mra-4025066107575_4' download completed
+[2024-04-17 13:33:17][Debug] Image 'mra-4025066107575_5' download completed
+[2024-04-17 13:33:21][Debug] Image 'mra-4025066107575_6' download completed
+[2024-04-17 13:33:25][Debug] Image 'mra-4025066107575_7' download completed
+[2024-04-17 13:33:27][Event] Product 'FZ1 FAZER - Touring windshield "T" 2006-' information crawling completed
+[2024-04-17 13:33:30][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/5386/fz1-fazer-variotouringscreen-vt-2006?c=90005758* page
+[2024-04-17 13:33:34][Debug] Image 'mra-4025066107629_1' download completed
+[2024-04-17 13:33:36][Event] Product 'FZ1 FAZER - Variotouringscreen "VT" 2006-' information crawling completed
+[2024-04-17 13:33:38][Debug] Get *https://www.mrashop.de/com/model-based-products/yamaha/fz-1-fazer/bj-06/5718/fz1-fazer-x-creen-touring-xct-2006?c=90005758* page
+[2024-04-17 13:33:38][Error] Error in get_item_info : Invalid URL '': No scheme supplied. Perhaps you meant https://?

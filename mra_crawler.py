@@ -286,6 +286,8 @@ class MRA_Crawler:
         item_description = ""
         if self.driver_manager.is_element_exist(By.CLASS_NAME, "product--description"):
             item_description = self.driver.find_element(By.CLASS_NAME, "product--description").text.replace("\n", "|")
+            if not isinstance(item_description, str):
+                item_description = ""
 
         product = Product(code=item_code, name=item_name, price=org_price, length=item_length, width=item_width, shipment=item_shipment, description=item_description, 
                             trans_description=Util.translator(self.logger, "en", "ko", item_description), images=image_names, option_name=option_name, option_value=option_value, model=item_model)
@@ -311,9 +313,7 @@ class MRA_Crawler:
         self.file_manager.creat_dir(f"./output/{output_name}")
         self.file_manager.creat_dir(f"./output/{output_name}/images")
 
-        start_make = "YAMAHA"
-        start_model = "BT 1100 Bulldog"
-        start_year = "BJ 02-"
+        start_make, start_model, start_year = self.get_init_settings_from_file()
         item_hrefs = []
         
         self.driver_manager.get_page("https://www.mrashop.de/com/model-based-products/")

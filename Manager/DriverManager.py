@@ -21,6 +21,8 @@ from PIL import Image
 
 class WebDriverManager:
     def __init__(self, logger, is_headless=False, is_use_udc=False):
+        requests.packages.urllib3.disable_warnings()
+        
         self.logger = logger
         self.is_headless = is_headless
         self.is_use_udc = is_use_udc
@@ -114,10 +116,10 @@ class WebDriverManager:
         min_size = 50
         
         #만약 다운로드 시도횟수가 5번을 넘는다면 다운로드 불가능한 이미지로 간주
-        if download_cnt > 10:
+        if download_cnt > 5:
             self.logger.log(log_level="Error", log_msg=f"Img size is under {min_size}KB or cannot download image \'{img_name}\'")
             return
-        r = requests.get(img_url,headers={'User-Agent': 'Mozilla/5.0'})
+        r = requests.get(img_url,headers={'User-Agent': 'Mozilla/5.0'},verify=False,timeout=20)
         with open(f"{img_path}/{img_name}.jpg", "wb") as outfile:
             outfile.write(r.content)
         #KB 단위의 이미지 사이즈
