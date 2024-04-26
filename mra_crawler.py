@@ -43,7 +43,7 @@ class MRA_Crawler:
     def __init__(self, logger):
         self.file_manager = FileManager.FileManager()
         self.logger = logger
-        self.driver_manager = DriverManager.WebDriverManager(self.logger, is_headless=True, is_use_udc=False)
+        self.driver_manager = DriverManager.WebDriverManager(self.logger, is_headless=True, is_use_udc=True)
         self.driver = self.driver_manager.driver
         self.file_manager.creat_dir("./temp")
         self.file_manager.creat_dir("./output")
@@ -63,7 +63,7 @@ class MRA_Crawler:
         start_maker = start_maker[0:start_maker.index(0)]
         
         if len(start_maker) == 0:
-            return account[0], account[1], 0, 0, 0
+            return 0, 0, 0
         
         start_model = data["start_model"].to_list()
         start_model.append(0)
@@ -72,8 +72,16 @@ class MRA_Crawler:
         start_year = data["start_year"].to_list()
         start_year.append(0)
         start_year = start_year[0:start_year.index(0)]
-
-        return start_maker[0], start_model[0], start_year[0]
+        
+        if not isinstance(start_year[0], str):
+            if isinstance(start_year[0], int):
+                return start_maker[0], start_model[0], str(start_year[0])
+            elif isinstance(start_year[0], float):
+                return start_maker[0], start_model[0], str(int(start_year[0]))
+            else:
+                return start_maker[0], start_model[0], start_year[0]
+        else:
+            return start_maker[0], start_model[0], start_year[0]
 
     def data_init(self):
         self.data.clear()
@@ -198,7 +206,7 @@ class MRA_Crawler:
             else:
                 is_last_page = True
             page += 1
-            
+
         return item_hrefs
 
     def get_item_info(self, src, shop_catrgory, output_name):
@@ -297,6 +305,103 @@ class MRA_Crawler:
 
         self.logger.log(log_level="Event", log_msg=f"Product \'{product.name}\' information crawling completed")
         return
+    
+    def get_item_info_with_bs(self, src, shop_catrgory, output_name):
+        soup = self.driver_manager.get_bs_soup(src)
+        
+        item_model = f"{shop_catrgory.make} {shop_catrgory.model} {shop_catrgory.year}"
+        item_name = soup.select_one('.product--title').get_text().replace('\n', "")
+        org_price = soup.select_one('body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--price.price--default > span > meta').attrs["content"]
+        
+        item_code = "mra-"
+        item_length = ""
+        item_width = ""
+        item_shipment = ""
+        
+        if soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > ul > li") is not None:
+            product_info_elements = soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > ul > li")
+            product_info_elements = product_info_elements[1:]
+            
+            for product_info_element in product_info_elements:
+                text = product_info_element.select_one("span").get_text().replace('\n', "")
+                lable = product_info_element.select_one("strong").get_text().replace('\n', "")
+                if "Order number" in lable:
+                    item_code += text
+                elif "Length" in lable:
+                    item_length = text
+                elif "Width" in lable:
+                    item_width = text
+                elif "Shipment" in lable:
+                    item_shipment = text
+                
+        img_hrefs = []
+        
+        if soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--image-container.image-slider.product--image-zoom > div.image-slider--container > div > div > span") is not None:
+            img_elements = soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--image-container.image-slider.product--image-zoom > div.image-slider--container > div > div > span")
+            print(img_elements)
+            for img_element in img_elements:
+                img_href = img_element.attrs["data-img-original"]
+                img_hrefs.append(img_href)
+        
+        img_hrefs = img_hrefs[0:12]
+        
+         #이미지 다운로드
+        image_cnt = 1
+        image_names = []
+        for img_href in img_hrefs:
+            image_name = f"{item_code}_{image_cnt}"
+            self.driver_manager.download_image(img_href, image_name, f"./output/{output_name}/images", 0)
+            image_names.append(image_name+".jpg")
+            image_cnt += 1
+        
+        option_names = []
+        options = []
+
+        if soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--configurator > form > p") is not None:
+            option_name_elements = soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--configurator > form > p")
+            for option_name_element in option_name_elements:
+                option_name = option_name_element.get_text()
+                option_names.append(option_name[:-1])
+
+            option_elements = soup.select("body > div > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--configurator > form > div > select")
+            for option_element in option_elements:
+                option_list = []
+                option_selects = option_element.select("option")
+                for option_select in option_selects:
+                    option_list.append(option_select.get_text().replace('\n', ""))
+                options.append(option_list)
+
+        option_name = ""
+        option_value = ""
+        
+        for name in option_names:
+            option_name += name
+            if name != option_names[-1]:
+                option_name += "|"
+        
+        for option in options:
+            for val in option:
+                option_value += val
+                if val != option[-1]:
+                    option_value += ";"
+            if option != options[-1]:
+                    option_value += "|"
+
+        item_description = ""
+        if soup.select(".product--description") is not None:
+            item_description = soup.select_one(".product--description").get_text().replace("\n", "|")
+            if not isinstance(item_description, str):
+                item_description = ""
+
+        product = Product(code=item_code, name=item_name, price=org_price, length=item_length, width=item_width, shipment=item_shipment, description=item_description, 
+                            trans_description=Util.translator(self.logger, "en", "ko", item_description), images=image_names, option_name=option_name, option_value=option_value, model=item_model)
+
+        print(product)
+        self.add_product_to_data(product)
+        self.save_csv_datas(output_name=output_name)
+
+        self.logger.log(log_level="Event", log_msg=f"Product \'{product.name}\' information crawling completed")
+        return
 
     def save_csv_datas(self, output_name):
         data_frame = pd.DataFrame(self.data)
@@ -314,7 +419,6 @@ class MRA_Crawler:
         self.file_manager.creat_dir(f"./output/{output_name}/images")
 
         start_make, start_model, start_year = self.get_init_settings_from_file()
-        item_hrefs = []
         
         self.driver_manager.get_page("https://www.mrashop.de/com/model-based-products/")
 
@@ -325,13 +429,14 @@ class MRA_Crawler:
             return
         
         for shop_catrgory in shop_categories:
+            item_hrefs = []
+            
             self.logger.log(log_level="Event", log_msg=f"Current maker : {shop_catrgory.make}, model : {shop_catrgory.model}, year : {shop_catrgory.year}")
             try:
-                temp_hrefs = self.get_items_from_page(shop_catrgory.href)
+                item_hrefs = self.get_items_from_page(shop_catrgory.href)
             except Exception as e:
                 self.logger.log(log_level="Error", log_msg=f"Error in get_items_from_page : {e}")
                 return
-            item_hrefs += temp_hrefs
 
             for item_href in item_hrefs:
                 try:

@@ -5,14 +5,12 @@ import atexit
 import mra_crawler
 
 #pip install -r requirements.txt
-#pyinstaller -n "TREX Crawler ver1.0" --clean --onefile main.py
+#pyinstaller -n "MRA Crawler ver1.2" --clean --onefile main.py
 
 def main():
-    url = "https://www.mrashop.de/com/model-based-products/"
-    logger = Util.Logger("Dev")
+    logger = Util.Logger("Build")
     crawler = mra_crawler.MRA_Crawler(logger)
-    logger.log(log_level="Event", log_msg=f"=MRA Crawler ver1.0=")
-
+    logger.log(log_level="Event", log_msg=f"=MRA Crawler ver1.2=")
     try:
         crawler.start_crawling()
         return
