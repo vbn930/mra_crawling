@@ -18,15 +18,18 @@ import os
 import psutil
 from PIL import Image
 from bs4 import BeautifulSoup
+import urllib3
 
 class WebDriverManager:
     def __init__(self, logger, is_headless=False, is_use_udc=False):
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         self.logger = logger
         self.is_headless = is_headless
         self.is_use_udc = is_use_udc
         self.logger.log(log_level="Debug", log_msg="Driver init")
         self.driver = None
         self.open_driver()
+        self.driver.minimize_window()
         self.process_list = []
         for proc in psutil.process_iter():
             # 프로세스 이름을 ps_name에 할당
@@ -51,7 +54,7 @@ class WebDriverManager:
             # Chrome driver Manager를 통해 크롬 드라이버 자동 설치 > 최신 버전을 설치 > Service에 저장
             service = Service(excutable_path=ChromeDriverManager().install())
             chrome_options = Options()
-            user_agent = "Mozilla/5.0 (Linux; Android 9; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.83 Mobile Safari/537.36"
+            user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
             chrome_options.add_argument('user-agent=' + user_agent)
             chrome_options.add_argument('--disable-dev-shm-usage')
             chrome_options.add_argument("--disable-notifications")
@@ -60,6 +63,8 @@ class WebDriverManager:
             chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
             chrome_options.add_argument('--log-level=3') # 브라우저 로그 레벨을 낮춤
             chrome_options.add_argument('--disable-loging') # 로그를 남기지 않음
+            prefs = {"profile.managed_default_content_settings.images": 2}
+            chrome_options.add_experimental_option("prefs", prefs)
             if self.is_headless:
                 chrome_options.add_argument("headless")
             driver = webdriver.Chrome(options=chrome_options, service=service)
@@ -85,19 +90,25 @@ class WebDriverManager:
             self.driver = None
             self.logger.log(log_level="Debug", log_msg=f"Driver deleted")
 
-    def get_page(self, url, max_wait_time = 10):
+    def get_page(self, url, max_wait_time = 30):
         is_page_loaded = False
-        while(is_page_loaded == False):
+        cnt = 1
+        while(True):
+            if cnt >= 10:
+                is_page_loaded = False
+                break
             try:
                 self.driver.get(url)
                 self.driver.implicitly_wait(max_wait_time)
                 self.logger.log(log_level="Debug", log_msg=f"Get *{url}* page")
-                self.driver.get_screenshot_as_file("temp.png")
+                # self.driver.get_screenshot_as_file("temp.png")
                 is_page_loaded = True
+                break
             except Exception as e:
-                self.logger.log(log_level="Debug", log_msg=f"Page load failed : {e}")
-                is_page_loaded = False
+                self.logger.log(log_level="Debug", log_msg=f"Page load {cnt} times failed : {e}")
+                cnt += 1
             #self.driver.minimize_window()
+        return is_page_loaded
 
     def get_driver(self):
         return self.driver

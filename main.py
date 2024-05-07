@@ -5,12 +5,13 @@ import atexit
 import mra_crawler
 
 #pip install -r requirements.txt
-#pyinstaller -n "MRA Crawler ver1.2" --clean --onefile main.py
+#pyinstaller -n "MRA Crawler ver1.5" --clean --onefile main.py
 
 def main():
+    # logger = Util.Logger("Build")
     logger = Util.Logger("Build")
     crawler = mra_crawler.MRA_Crawler(logger)
-    logger.log(log_level="Event", log_msg=f"=MRA Crawler ver1.2=")
+    logger.log(log_level="Event", log_msg=f"=MRA Crawler ver1.5=")
     try:
         crawler.start_crawling()
         return
